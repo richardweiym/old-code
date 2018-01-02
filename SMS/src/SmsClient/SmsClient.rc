@@ -1,0 +1,868 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "atlres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_SYSTEM_CONNECT
+    BUTTON      ID_SYSTEM_DISCONNECT
+    SEPARATOR
+    BUTTON      ID_SYSTEM_SETTING
+    SEPARATOR
+    BUTTON      ID_SMS_NEW
+    BUTTON      ID_SMS_REPLY
+    BUTTON      ID_SMS_TRANSFER
+    BUTTON      ID_SMS_DELETE
+    BUTTON      ID_SMS_CLEAR
+    SEPARATOR
+    BUTTON      ID_SMS_SEARCH
+    SEPARATOR
+    BUTTON      ID_TOOL_CONTACTLIST
+    BUTTON      ID_TOOL_SMSLIB
+    SEPARATOR
+    BUTTON      ID_VIEW_CURRENT
+    SEPARATOR
+    BUTTON      ID_SYSTEM_EXIT
+END
+
+IDR_VIEW_LIST TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_VIEW_TOSEND
+    BUTTON      ID_VIEW_SENDED
+    BUTTON      ID_VIEW_RECEIVED
+    BUTTON      ID_VIEW_DELETED
+END
+
+IDR_CONTACT TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_ADD_TEAM
+    BUTTON      ID_MODIFY_TEAM
+    BUTTON      ID_DELETE_TEAM
+    SEPARATOR
+    BUTTON      ID_ADD_CONTACT
+    BUTTON      ID_MODIFY_CONTACT
+    BUTTON      ID_DELETE_CONTACT
+    BUTTON      ID_TRANSFER_CONTACT
+    SEPARATOR
+    BUTTON      ID_IMPORT
+    BUTTON      ID_EXPORT
+    SEPARATOR
+    BUTTON      ID_EXIT
+END
+
+IDR_MESSAGE_LIB TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_ADD_TYPE
+    BUTTON      ID_MODIFY_TYPE
+    BUTTON      ID_DELETE_TYPE
+    SEPARATOR
+    BUTTON      ID_ADD_MESSAGE
+    BUTTON      ID_MODIFY_MESSAGE
+    BUTTON      ID_DELETE_MESSAGE
+    BUTTON      ID_TRANSFER_MESSAGE
+    SEPARATOR
+    BUTTON      ID_INSERT_CONTENT
+    SEPARATOR
+    BUTTON      ID_EXIT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDR_VIEW_LIST           BITMAP  DISCARDABLE     "res\\toolbar1.bmp"
+IDR_CONTACT             BITMAP  DISCARDABLE     "res\\bmp00002.bmp"
+IDR_MESSAGE_LIB         BITMAP  DISCARDABLE     "res\\bmp00004.bmp"
+IDB_INFORMATION         BITMAP  DISCARDABLE     "res\\information.bmp"
+IDB_CLOSE               BITMAP  DISCARDABLE     "res\\close.bmp"
+IDB_SMS_BOX             BITMAP  DISCARDABLE     "res\\smsBox.bmp"
+IDB_SMS_CONTACT         BITMAP  DISCARDABLE     "res\\contact.bmp"
+IDB_SMS_MESSSAGE        BITMAP  DISCARDABLE     "res\\MessageState.bmp"
+IDB_MESSAGE_LIB         BITMAP  DISCARDABLE     "res\\MessageLib.bmp"
+IDB_HUMAN               BITMAP  DISCARDABLE     "res\\human.bmp"
+IDB_MSG                 BITMAP  DISCARDABLE     "res\\msg.bmp"
+IDB_SPLASH              BITMAP  DISCARDABLE     "res\\splash.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "系统"
+    BEGIN
+        MENUITEM "连接\tCtrl+O",                ID_SYSTEM_CONNECT
+        MENUITEM "断开\tCtrl+P",                ID_SYSTEM_DISCONNECT
+        MENUITEM SEPARATOR
+        MENUITEM "设置...\tCtrl+S",             ID_SYSTEM_SETTING
+        MENUITEM SEPARATOR
+        MENUITEM "退出\tCtrl+Q",                ID_SYSTEM_EXIT
+    END
+    POPUP "短信"
+    BEGIN
+        MENUITEM "新建\tCtrl+N",                ID_SMS_NEW
+        MENUITEM "回复\tCtrl+R",                ID_SMS_REPLY
+        MENUITEM "转发\tCtrl+T",                ID_SMS_TRANSFER
+        MENUITEM SEPARATOR
+        MENUITEM "删除\tCtrl+D",                ID_SMS_DELETE
+        MENUITEM "清空\tCtrl+L",                ID_SMS_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "查询\tCtrl+F",                ID_SMS_SEARCH
+        MENUITEM SEPARATOR
+        MENUITEM "收藏\tCtrl+W",                ID_SMS_SAVE
+    END
+    POPUP "查看"
+    BEGIN
+        MENUITEM "工具栏",                      ID_VIEW_TOOLBAR, CHECKED
+        MENUITEM "状态栏",                      ID_VIEW_STATUS_BAR, CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "短信箱",                      ID_VIEW_BOX, CHECKED
+        MENUITEM "通讯簿",                      ID_VIEW_CONTACTLIST, CHECKED
+        MENUITEM "短信内容",                    ID_VIEW_CONTENT, CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "待发短信",                    ID_VIEW_TOSEND, CHECKED
+        MENUITEM "已发短信",                    ID_VIEW_SENDED
+        MENUITEM "已收短信",                    ID_VIEW_RECEIVED
+        MENUITEM "已删短信",                    ID_VIEW_DELETED
+    END
+    POPUP "工具"
+    BEGIN
+        MENUITEM "通讯簿...\tCtrl+B",           ID_TOOL_CONTACTLIST
+        MENUITEM "短语库...\tCtrl+K",           ID_TOOL_SMSLIB
+    END
+    POPUP "帮助"
+    BEGIN
+        MENUITEM "关于 SMS Express...\tCtrl+A", ID_HELP_ABOUT
+        MENUITEM "问题与建议...\tCtrl+J",       ID_HELP_QUESTION
+    END
+END
+
+IDR_VIEW_CURRENT MENU DISCARDABLE 
+BEGIN
+    POPUP "当前信箱"
+    BEGIN
+        MENUITEM "待发短信",                    ID_VIEW_TOSEND
+        MENUITEM "已发短信",                    ID_VIEW_SENDED
+        MENUITEM "已收短信",                    ID_VIEW_RECEIVED
+        MENUITEM "已删短信",                    ID_VIEW_DELETED
+    END
+END
+
+IDR_SEND_LIST MENU DISCARDABLE 
+BEGIN
+    MENUITEM "",                            65535
+    POPUP "send"
+    BEGIN
+        MENUITEM "新增号码",                    ID_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "删除接收人",                  ID_DELETE
+        MENUITEM "清空",                        ID_CLEAR
+    END
+    POPUP "tray"
+    BEGIN
+        MENUITEM "显示主窗口(&M)",              ID_SYSTEM_SHOW
+        MENUITEM "发送短信...(&N)",             ID_SMS_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "连接(&O)",                    ID_SYSTEM_CONNECT
+        MENUITEM "断开(&C)",                    ID_SYSTEM_DISCONNECT
+        MENUITEM SEPARATOR
+        MENUITEM "设置...(&S)",                 ID_SYSTEM_SETTING
+        MENUITEM "退出(&Q)",                    ID_SYSTEM_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\SmsClient.ico"
+IDI_CONNECTED           ICON    DISCARDABLE     "res\\connecte.ico"
+IDI_DISCONNECTED        ICON    DISCARDABLE     "res\\icon1.ico"
+IDI_CONNECTING          ICON    DISCARDABLE     "res\\ico00001.ico"
+IDI_CONNECTED_TRAY      ICON    DISCARDABLE     "res\\ico00002.ico"
+IDI_CONNECTING_TRAY     ICON    DISCARDABLE     "res\\connecti.ico"
+IDI_DISCONNECTED_TRAY   ICON    DISCARDABLE     "res\\disconne.ico"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "恒誉工作室\0"
+            VALUE "FileDescription", "短信客户端\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "SMS Client\0"
+            VALUE "LegalCopyright", "Copyright 2007\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "SmsClient.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "SmsClient Module\0"
+            VALUE "ProductVersion", "1, 0, 0, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DETAIL DIALOG DISCARDABLE  0, 0, 294, 127
+STYLE WS_CHILD
+FONT 9, "Tahoma"
+BEGIN
+    LTEXT           "发信人:",IDC_CONTACT_CAPTION,1,5,40,9
+    LTEXT           "",IDC_CONTACT_NAME,44,5,70,9
+    LTEXT           "时间:",IDC_TIME_CAPTION,146,5,54,9
+    LTEXT           "",IDC_TIME_VALUE,208,6,83,9
+    EDITTEXT        IDC_CONTENT,1,18,290,106,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL
+END
+
+IDD_SPLASH DIALOG DISCARDABLE  0, 0, 256, 205
+STYLE WS_POPUP | WS_BORDER
+FONT 10, "System"
+BEGIN
+    CONTROL         250,IDC_STATIC,"Static",SS_BITMAP,0,0,20,20
+    CONTROL         "Progress3",IDC_PROGRESS,"msctls_progress32",WS_BORDER,0,
+                    195,256,10
+END
+
+IDD_SETTING DIALOG DISCARDABLE  0, 0, 194, 186
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设置"
+FONT 9, "Tahoma"
+BEGIN
+    GROUPBOX        "帐号",IDC_STATIC,9,3,172,50
+    LTEXT           "用户名:",IDC_STATIC,26,17,29,10
+    LTEXT           "密码:",IDC_STATIC,25,33,28,8
+    EDITTEXT        IDC_NAME,67,15,102,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASSWORD,67,31,102,12,ES_PASSWORD | ES_AUTOHSCROLL
+    GROUPBOX        "短信服务器",IDC_STATIC,10,59,172,52
+    LTEXT           "服务器IP地址:",IDC_STATIC,17,76,46,10
+    LTEXT           "端口号:",IDC_STATIC,23,90,35,9
+    EDITTEXT        IDC_SERVER,67,74,102,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PORT,67,90,102,12,ES_AUTOHSCROLL
+    CONTROL         "收到短信时自动提示",IDC_AUTO_INFO,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,12,120,77,11
+    CONTROL         "启动程序时自动连接",IDC_AUTO_CON,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,12,135,76,10
+    DEFPUSHBUTTON   "确定",IDC_OK,74,163,44,13
+    PUSHBUTTON      "取消",IDC_CANCEL,136,163,44,13
+END
+
+IDD_CONTACT_MANAGER DIALOG DISCARDABLE  0, 0, 443, 271
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "通讯簿"
+FONT 9, "Tahoma"
+BEGIN
+END
+
+IDD_TEAM DIALOG DISCARDABLE  0, 0, 139, 75
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "新建组"
+FONT 9, "Tahoma"
+BEGIN
+    LTEXT           "组名:",IDC_STATIC,10,22,23,8
+    EDITTEXT        IDC_NAME,38,19,84,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDC_OK,25,49,42,14
+    PUSHBUTTON      "取消",IDC_CANCEL,78,49,42,14
+END
+
+IDD_CONTACT DIALOG DISCARDABLE  0, 0, 154, 107
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 9, "Tahoma"
+BEGIN
+    LTEXT           "人员分类:",IDC_STATIC,17,16,32,10
+    COMBOBOX        IDC_TEAM,58,14,79,49,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "名字:",IDC_STATIC,30,39,19,9
+    EDITTEXT        IDC_NAME,58,34,79,14,ES_AUTOHSCROLL
+    LTEXT           "手机号码:",IDC_STATIC,17,60,32,10
+    EDITTEXT        IDC_TEL,58,56,79,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDC_OK,32,81,40,14
+    PUSHBUTTON      "取消",IDC_CANCEL,87,81,40,14
+END
+
+IDD_TRANSFER DIALOG DISCARDABLE  0, 0, 161, 68
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "转移到组"
+FONT 9, "Tahoma"
+BEGIN
+    LTEXT           "转移到组:",IDC_STATIC,14,15,31,9
+    COMBOBOX        IDC_TEAM,51,13,90,49,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "确定",IDC_OK,27,39,41,15
+    PUSHBUTTON      "取消",IDC_CANCEL,87,39,41,15
+END
+
+IDD_SEND DIALOG DISCARDABLE  0, 0, 306, 263
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "发送短信"
+FONT 9, "Tahoma"
+BEGIN
+    LTEXT           "通讯簿:",IDC_STATIC,11,3,27,10
+    CONTROL         "Tree1",IDC_CONTACT,"SysTreeView32",TVS_SHOWSELALWAYS | 
+                    WS_BORDER | WS_TABSTOP,9,16,102,130
+    LTEXT           "接收人:",IDC_STATIC,183,3,31,10
+    PUSHBUTTON      "加入 =>",IDC_ADD,131,27,41,14
+    PUSHBUTTON      "新增 =>",IDC_NEW,131,50,41,14
+    PUSHBUTTON      "删除 <=",IDC_DELETE,131,87,41,14
+    PUSHBUTTON      "清空 <=",IDC_CLEAR,131,115,41,14
+    CONTROL         "定时发送:",IDC_ON_TIMER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,9,154,42,9
+    CONTROL         "DateTimePicker1",IDC_DATE,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,55,154,55,11
+    CONTROL         "DateTimePicker1",IDC_TIME,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,111,154,
+                    47,12
+    EDITTEXT        IDC_CONTENT,9,186,287,53,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    WS_VSCROLL
+    DEFPUSHBUTTON   "发送",IDC_SEND,195,246,43,13
+    PUSHBUTTON      "关闭",IDC_CLOSE,253,246,43,13
+    CONTROL         "List1",IDC_RECEIVER,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,183,14,109,
+                    134
+    LTEXT           "发送内容: 当前共",IDC_STATIC,8,172,54,9
+    EDITTEXT        IDC_CHARACTER_COUNT,62,172,17,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    LTEXT           "个字符, 分为",IDC_STATIC,80,172,40,9
+    EDITTEXT        IDC_MESSAGE_COUNT,120,172,17,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    LTEXT           "条短信发送(每条短信可包含70个汉字)",IDC_STATIC,137,172,
+                    119,10
+    PUSHBUTTON      "插入短语...",IDC_INSERT_CONTENT,9,245,44,14
+END
+
+IDD_ADD_TEL DIALOG DISCARDABLE  0, 0, 154, 65
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "新增号码"
+FONT 9, "Tahoma"
+BEGIN
+    LTEXT           "手机号码:",IDC_STATIC,9,15,33,9
+    EDITTEXT        IDC_TEL,49,11,85,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDC_OK,21,41,45,15
+    PUSHBUTTON      "取消",IDC_CANCEL,87,41,45,15
+END
+
+IDD_SEARCH DIALOGEX 0, 0, 386, 253
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "查询短信"
+FONT 9, "Tahoma", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "请输入查询条件",IDC_STATIC,7,7,300,78
+    LTEXT           "查找信箱:",IDC_STATIC,17,23,38,9
+    CONTROL         "名字:",IDC_CHECK_NAME,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,17,43,38,10
+    CONTROL         "手机号码:",IDC_CHECK_TEL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,165,42,43,10
+    COMBOBOX        IDC_BOX,61,19,88,56,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_NAME,62,39,88,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TEL,212,38,82,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CONTENT,60,61,232,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "开始查询",IDC_SEARCH,321,19,46,14
+    PUSHBUTTON      "全部清空",IDC_CLEAR,322,45,46,14
+    PUSHBUTTON      "退出",IDC_CLOSE,321,71,46,14
+    CONTROL         "包含内容:",IDC_CHECK_CONTENT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,64,42,9
+    CONTROL         "List1",IDC_MESSAGE,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,7,93,372,139
+    EDITTEXT        IDC_INFO,7,236,372,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+END
+
+IDD_MESSAGE_LIB DIALOG DISCARDABLE  0, 0, 429, 274
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "短语库"
+FONT 9, "Tahoma"
+BEGIN
+END
+
+IDD_MESSAGE DIALOG DISCARDABLE  0, 0, 218, 157
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "新建短语"
+FONT 9, "Tahoma"
+BEGIN
+    LTEXT           "短语类别:",IDC_STATIC,14,20,30,9
+    COMBOBOX        IDC_TYPE,47,18,79,60,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "短语内容:",IDC_STATIC,14,39,32,10
+    EDITTEXT        IDC_CONTENT,13,50,192,75,ES_MULTILINE | WS_VSCROLL
+    DEFPUSHBUTTON   "确定",IDC_OK,111,134,43,15
+    PUSHBUTTON      "取消",IDC_CANCEL,162,134,43,15
+    CONTROL         246,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN | 
+                    WS_BORDER,160,10,30,30
+END
+
+IDD_READ_MSG DIALOG DISCARDABLE  0, 0, 271, 175
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "查看短信"
+FONT 9, "Tahoma"
+BEGIN
+    LTEXT           "联 系 人   :",IDC_STATIC,11,17,34,9
+    LTEXT           "手机号码  :",IDC_STATIC,11,36,36,9
+    LTEXT           "短信内容  :",IDC_STATIC,11,53,37,10
+    EDITTEXT        IDC_CONTENT,12,66,246,74,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL
+    PUSHBUTTON      "回复...",IDC_REPLY,21,153,46,15
+    PUSHBUTTON      "转发...",IDC_TRANSFER,81,153,46,15
+    PUSHBUTTON      "收藏...",IDC_SAVE,146,153,46,15
+    DEFPUSHBUTTON   "关闭",IDC_CLOSE,207,153,46,15
+    GROUPBOX        "短信详情",IDC_STATIC,5,3,261,144
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKRECT,48,27,119,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKRECT,47,47,120,1
+    CONTROL         243,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,208,13,38,
+                    35
+    EDITTEXT        IDC_NAME,54,15,105,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER
+    EDITTEXT        IDC_TEL,54,35,105,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER
+END
+
+IDD_INFORMATION DIALOG DISCARDABLE  0, 0, 235, 57
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "问题与建议"
+FONT 9, "Tahoma"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDC_OK,180,39,42,13
+    ICON            IDR_MAINFRAME,IDC_STATIC,19,19,20,20
+    LTEXT           "如果对此软件有任何问题或建议，欢迎您与我们联系!",
+                    IDC_STATIC,62,11,160,9
+    EDITTEXT        IDC_EMAIL,86,24,101,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+    LTEXT           "Email :",IDC_STATIC,61,24,21,9
+    LTEXT           "QQ  :",IDC_STATIC,64,34,17,8
+    EDITTEXT        IDC_QQ,86,36,84,16,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER
+END
+
+IDD_IMPORT_EXCEL DIALOG DISCARDABLE  0, 0, 173, 159
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "导入Excel"
+FONT 9, "Tahoma"
+BEGIN
+    GROUPBOX        "导入设置",IDC_STATIC,4,3,162,128
+    LTEXT           " Excel 页:",IDC_STATIC,25,15,30,11
+    COMBOBOX        IDC_SHEET,61,14,98,56,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "名字所在列:",IDC_STATIC,18,34,37,9
+    LTEXT           "手机号码所在列:",IDC_STATIC,4,52,51,9
+    COMBOBOX        IDC_NAME,61,31,98,78,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_TEL,61,49,98,81,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "地址簿导入组:",IDC_STATIC,11,97,44,10
+    COMBOBOX        IDC_TEAM,61,95,98,60,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "(如果选择框里没有你需要的列，请确保Excel的第一行为每列的标题，且标题为非数字 )",
+                    IDC_STATIC,19,63,138,20
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT,10,84,148,1
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",WS_BORDER,
+                    14,114,145,10
+    PUSHBUTTON      "开始导入",IDC_IMPORT,65,134,44,14
+    DEFPUSHBUTTON   "关闭",IDC_CLOSE,118,135,43,13
+END
+
+IDD_EXPORT_XML DIALOGEX 0, 0, 187, 192
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "导出联系人"
+FONT 9, "Tahoma"
+BEGIN
+    GROUPBOX        "导出设置",IDC_STATIC,4,4,178,159
+    CONTROL         "全部选中",IDC_ALL_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,12,87,42,13
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",WS_BORDER,
+                    12,144,165,13
+    PUSHBUTTON      "开始导出",IDC_EXPORT,83,169,41,14
+    DEFPUSHBUTTON   "关闭",IDC_CLOSE,141,169,41,14
+    LTEXT           "导出文件:",IDC_STATIC,10,107,33,10
+    EDITTEXT        IDC_FILE,12,121,135,15,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "...",IDC_EXPLORE,155,122,20,14
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT,11,103,167,1
+    CONTROL         "Tree1",IDC_TREE,"SysTreeView32",TVS_CHECKBOXES | 
+                    WS_BORDER | WS_TABSTOP,12,27,165,57
+    LTEXT           "从通讯簿中选择要导出的组:",IDC_STATIC,12,15,96,8
+END
+
+IDD_IMPORT_XML DIALOG DISCARDABLE  0, 0, 171, 172
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "导入XML"
+FONT 9, "Tahoma"
+BEGIN
+    GROUPBOX        "导入设置",IDC_STATIC,3,3,164,140
+    CONTROL         "Tree1",IDC_TREE,"SysTreeView32",TVS_CHECKBOXES | 
+                    TVS_FULLROWSELECT | WS_BORDER | WS_TABSTOP,9,25,153,70
+    LTEXT           "从XML文件中选择要导入的组:",IDC_STATIC,9,14,96,9
+    CONTROL         "全部选择",IDC_ALL_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,99,41,12
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT,11,114,151,1
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",WS_BORDER,9,
+                    126,153,9
+    PUSHBUTTON      "开始导入",IDC_IMPORT,70,150,42,13
+    DEFPUSHBUTTON   "关闭",IDC_CLOSE,125,150,42,13
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DETAIL, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 291
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_SETTING, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 190
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 182
+    END
+
+    IDD_CONTACT_MANAGER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 436
+        VERTGUIDE, 116
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 264
+    END
+
+    IDD_TEAM, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 135
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 71
+    END
+
+    IDD_CONTACT, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 150
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 103
+    END
+
+    IDD_TRANSFER, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 157
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_SEND, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 302
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 259
+    END
+
+    IDD_ADD_TEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 150
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 62
+    END
+
+    IDD_SEARCH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 379
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 248
+    END
+
+    IDD_MESSAGE_LIB, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 422
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 267
+    END
+
+    IDD_MESSAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 212
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 152
+    END
+
+    IDD_READ_MSG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 266
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_INFORMATION, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 231
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 52
+    END
+
+    IDD_IMPORT_EXCEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 168
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_EXPORT_XML, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 182
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 188
+    END
+
+    IDD_IMPORT_XML, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 167
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 169
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS DISCARDABLE 
+BEGIN
+    "A",            ID_HELP_ABOUT,          VIRTKEY, CONTROL, NOINVERT
+    "B",            ID_TOOL_CONTACTLIST,    VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_SMS_DELETE,          VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_SMS_SEARCH,          VIRTKEY, CONTROL, NOINVERT
+    "J",            ID_HELP_QUESTION,       VIRTKEY, CONTROL, NOINVERT
+    "K",            ID_TOOL_SMSLIB,         VIRTKEY, CONTROL, NOINVERT
+    "L",            ID_SMS_CLEAR,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_SMS_NEW,             VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_SYSTEM_CONNECT,      VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_SYSTEM_DISCONNECT,   VIRTKEY, CONTROL, NOINVERT
+    "Q",            ID_SYSTEM_EXIT,         VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_SMS_REPLY,           VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_SYSTEM_SETTING,      VIRTKEY, CONTROL, NOINVERT
+    "T",            ID_SMS_TRANSFER,        VIRTKEY, CONTROL, NOINVERT
+    "W",            ID_SMS_SAVE,            VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "SMS Express 短信客户端"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_EXIT             "退出应用程序\n退出"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "显示/隐藏工具栏\n工具栏"
+    ID_VIEW_STATUS_BAR      "显示/隐藏状态栏\n状态栏"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SMS_BOX             "短信箱"
+    IDS_SMS_CONTACT         "通讯簿"
+    IDS_BOX_TOSEND          "待发短信"
+    IDS_BOX_SENDED          "已发短信"
+    IDS_BOX_RECEIVED        "已收短信"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SYSTEM_CONNECT       "连接短信服务器\n连接"
+    ID_SYSTEM_DISCONNECT    "断开与短信服务器的连接\n断开"
+    ID_SYSTEM_SETTING       "短信选项和帐号设置\n设置"
+    ID_SMS_NEW              "新建短信\n新建"
+    ID_SMS_REPLY            "回复短信\n回复"
+    ID_SMS_TRANSFER         "转发短信\n转发"
+    ID_SMS_DELETE           "删除短信\n删除"
+    ID_SMS_SEARCH           "查找相关短信\n查询"
+    ID_SYSTEM_EXIT          "退出应用程序\n退出"
+    ID_TOOL_CONTACTLIST     "联系人列表\n通讯簿"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_TOOL_SMSLIB          "常用短语\n短语库"
+    ID_HELP_ABOUT           "关于SMS Express"
+    ID_VIEW_STATUSBAR       "显示/隐藏状态栏\n状态栏"
+    ID_VIEW_SMSBOX          "显示/隐藏短信信箱\n短信信箱"
+    ID_VIEW_CONTACTLIST     "显示/隐藏通讯簿\n通讯簿"
+    ID_VIEW_CONTENT         "显示/隐藏短信内容\n短信内容"
+    ID_VIEW_BOX             "显示/隐藏短信箱 \n短信箱"
+    ID_VIEW_CURRENT         "当前短信信箱类型\n短信信箱"
+    ID_VIEW_TOSEND          "查看待发短信\n待发短信"
+    ID_VIEW_SENDED          "查看已发短信\n已发短信"
+    ID_VIEW_RECEIVED        "查看已收短信\n已收短信"
+    ID_VIEW_DELETED         "查看已删短信\n已删短信"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_BOX_DELETED         "已删短信"
+    IDS_BOX_SERVER          "短信服务"
+    IDS_COMPANY_INFO        "SMS Express 短信客户端   版权所有(C) 2005-2007   恒誉工作室 "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SMS_CLEAR            "清空信箱\n清空"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IS_SMS_SAVE             "收藏\n保存到短语库"
+    ID_SMS_SAVE             "收藏短信到短信库\n收藏短信"
+    ID_SMS_GETTEL           "提取号码\n保存号码"
+    ID_SYSTEM_SHOW          "显示主窗口\n显示"
+    ID_HELP_QUESTION        "问题与建议，与我们联系\n问题与建议"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""atlres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST ""res\\\\SmsClient.exe.manifest""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "res\\SmsClient.exe.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

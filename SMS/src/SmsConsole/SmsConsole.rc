@@ -1,0 +1,479 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "atlres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\SmsConsole.ico"
+IDI_RUN                 ICON    DISCARDABLE     "res\\icon1.ico"
+IDI_STOP                ICON    DISCARDABLE     "res\\ico00001.ico"
+IDI_START               ICON    DISCARDABLE     "res\\ico00002.ico"
+IDI_SETTING             ICON    DISCARDABLE     "res\\setting.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINDLG DIALOG DISCARDABLE  0, 0, 179, 153
+STYLE WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
+FONT 9, "Tahoma"
+BEGIN
+    CONTROL         "Start",IDC_START,"Button",BS_OWNERDRAW | WS_TABSTOP,19,
+                    60,36,13
+    CONTROL         "Stop",IDC_STOP,"Button",BS_OWNERDRAW | WS_TABSTOP,69,60,
+                    35,13
+    CONTROL         "Setting",IDC_SETTING,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    119,60,36,12
+    LTEXT           "Static",IDC_STATICCONTAINER,1,78,176,66,NOT WS_VISIBLE
+    CONTROL         210,IDC_STATIC,"Static",SS_BITMAP,1,0,176,48
+END
+
+IDD_SETUP DIALOG DISCARDABLE  0, 0, 212, 183
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设置"
+FONT 9, "Tahoma"
+BEGIN
+    LISTBOX         IDC_LIST,2,3,38,152,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Static",IDC_STATICCONTAINER,47,3,162,152
+    DEFPUSHBUTTON   "确定",IDC_OK,77,162,39,12
+    PUSHBUTTON      "取消",IDC_CANCEL,123,162,39,12
+    PUSHBUTTON      "应用(&A)",IDC_APPLY,170,162,39,12
+END
+
+IDD_DEVICE DIALOG DISCARDABLE  0, 0, 149, 145
+STYLE WS_CHILD
+FONT 9, "Tahoma"
+BEGIN
+    LTEXT           "本地短信中心号码:",IDC_STATIC,13,7,61,11
+    EDITTEXT        IDC_CENTER_NUM,11,18,117,12,ES_AUTOHSCROLL
+    LTEXT           "短信硬件所连COM串口号 :",IDC_STATIC,12,34,86,9
+    COMBOBOX        IDC_COM_PORT,11,45,117,63,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "失败后重发的最大次数(小于6次):",IDC_STATIC,11,60,103,12
+    EDITTEXT        IDC_COUNT,11,72,117,12,ES_AUTOHSCROLL
+    CONTROL         "启动时清空SIM卡中的短信",IDC_CLEAR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,12,90,90,8
+    LTEXT           "注意:本地短信中心号码不是你的SIM卡号码，如杭州本地移动的短信中心号码为 +8613800571500",
+                    IDC_STATIC,11,105,119,27
+END
+
+IDD_COMMU DIALOG DISCARDABLE  0, 0, 148, 143
+STYLE WS_CHILD
+FONT 9, "Tahoma"
+BEGIN
+    LTEXT           "通信端口号:",IDC_STATIC,9,18,41,11
+    EDITTEXT        IDC_SOCKET_PORT,51,17,59,13,ES_AUTOHSCROLL
+    CONTROL         "登陆时需要帐号验证",IDC_LOGON_CHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,9,41,75,12
+    LTEXT           "注意: 如果短信服务正在运行中，修改的设置将在程序重新启动后生效。",
+                    IDC_STATIC,9,83,123,16
+END
+
+IDD_ACCOUNT DIALOG DISCARDABLE  0, 0, 149, 149
+STYLE WS_CHILD
+FONT 9, "Tahoma"
+BEGIN
+    CONTROL         "List1",IDC_ACCOUNT_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | WS_BORDER | 
+                    WS_TABSTOP,2,9,139,108
+    PUSHBUTTON      "新增...",IDC_ADD,8,122,41,13
+    PUSHBUTTON      "删除",IDC_DELETE,98,122,41,13
+    PUSHBUTTON      "修改...",IDC_MODIFY,53,122,41,13
+END
+
+IDD_OTHER DIALOG DISCARDABLE  0, 0, 149, 145
+STYLE WS_CHILD
+FONT 9, "Tahoma"
+BEGIN
+    CONTROL         "运行程序时自动启动",IDC_AUTO_START,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,14,81,10
+    CONTROL         "开机时自动运行",IDC_AUTO_RUN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,34,69,12
+END
+
+IDD_ADD_ACCOUNT DIALOG DISCARDABLE  0, 0, 163, 127
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "新建帐号"
+FONT 9, "Tahoma"
+BEGIN
+    LTEXT           "用户名:",IDC_STATIC,26,21,28,10
+    EDITTEXT        IDC_NAME,57,18,85,12,ES_AUTOHSCROLL
+    LTEXT           "密码:",IDC_STATIC,30,38,18,8
+    EDITTEXT        IDC_PASSWORD,57,37,85,12,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "是否允许接收:",IDC_STATIC,7,59,48,8
+    LTEXT           "是否激活:",IDC_STATIC,19,75,33,9
+    COMBOBOX        IDC_DISPATCH,57,55,85,36,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_CAN_USE,57,75,85,37,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "确定",IDC_OK,67,105,37,13
+    PUSHBUTTON      "取消",IDC_CANCEL,115,105,37,13
+    GROUPBOX        "帐号信息",IDC_STATIC,7,2,145,97
+END
+
+IDD_INFOR DIALOG DISCARDABLE  0, 0, 155, 47
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "提示信息"
+FONT 9, "Tahoma"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDC_OK,69,25,44,13
+    LTEXT           "static",IDC_TEXT,33,10,114,11,NOT WS_VISIBLE
+END
+
+IDD_QUES DIALOG DISCARDABLE  0, 0, 177, 41
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "提示信息"
+FONT 9, "Tahoma"
+BEGIN
+    LTEXT           "你确定要删除选中的帐号?",IDC_TEXT,36,3,84,11
+    DEFPUSHBUTTON   "是",IDC_QUES_YES,34,19,40,13
+    PUSHBUTTON      "否",IDC_QUES_NO,91,19,40,13
+END
+
+IDD_ABOUT DIALOG DISCARDABLE  0, 0, 251, 104
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 SMS Server 服务控制台"
+FONT 9, "Tahoma"
+BEGIN
+    CONTROL         233,IDC_STATIC,"Static",SS_BITMAP,21,17,18,18
+    LTEXT           "SMS Server 服务控制台",IDC_STATIC,83,10,91,10
+    LTEXT           "版本 1.00.001",IDC_STATIC,83,22,96,8
+    LTEXT           "版权所有 (C) 2005-2007        恒誉工作室",IDC_STATIC,83,
+                    35,131,9
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKRECT,9,50,230,1
+    LTEXT           "警告：本计算机程序受著作权法和国际公约的保护。 未经授权擅自复制或传播本程序的部分或是全部可能招受严厉的民事及刑事制裁，并将在法律许可的范围内受到最大可能的起诉。",
+                    IDC_STATIC,14,58,224,26
+    DEFPUSHBUTTON   "确定",IDC_OK,197,85,43,14
+END
+
+IDD_REGISTER DIALOG DISCARDABLE  0, 0, 153, 143
+STYLE WS_CHILD
+FONT 9, "Tahoma"
+BEGIN
+    LTEXT           "机器码:",IDC_STATIC,15,22,26,9
+    EDITTEXT        IDC_MACHINE_CODE,49,19,98,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "注册码:",IDC_STATIC,15,37,24,9
+    EDITTEXT        IDC_REGISTER_CODE,49,36,98,12,ES_AUTOHSCROLL
+    LTEXT           "当前状态:",IDC_STATIC,10,5,34,10
+    EDITTEXT        IDC_STATUS,49,4,98,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "注册",IDC_REGISTER,105,51,42,12
+    LTEXT           "注意:试用版短信服务运行5分钟后将自动停止，如果您想获取此软件的注册码，或是对此软件有任何建议，请与恒誉工作室联系，联系方式:",
+                    IDC_STATIC,12,74,126,35
+    LTEXT           "Email :",IDC_STATIC,11,111,25,9
+    EDITTEXT        IDC_EMAIL,39,110,97,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+    LTEXT           "QQ :",IDC_STATIC,12,122,25,9
+    EDITTEXT        IDC_QQ,38,122,94,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MAINDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 177
+        BOTTOMMARGIN, 146
+    END
+
+    IDD_SETUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 209
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 180
+    END
+
+    IDD_DEVICE, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 146
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_COMMU, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 145
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 140
+    END
+
+    IDD_ACCOUNT, DIALOG
+    BEGIN
+        RIGHTMARGIN, 147
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 146
+    END
+
+    IDD_OTHER, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 146
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_ADD_ACCOUNT, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 160
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 123
+    END
+
+    IDD_INFOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 153
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 44
+    END
+
+    IDD_QUES, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 175
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 38
+    END
+
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 247
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 99
+    END
+
+    IDD_REGISTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 150
+        BOTTOMMARGIN, 141
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_STOP                BITMAP  DISCARDABLE     "res\\bmp00003.bmp"
+IDB_SETTING             BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDB_START               BITMAP  DISCARDABLE     "res\\bmp00002.bmp"
+IDB_BKGND               BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+IDB_HEAD                BITMAP  DISCARDABLE     "res\\head.bmp"
+IDB_SMS_LOGO            BITMAP  DISCARDABLE     "res\\run.bmp"
+IDB_ACCOUNT_HEAD        BITMAP  DISCARDABLE     "res\\accountHead.bmp"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "恒誉工作室\0"
+            VALUE "FileDescription", "短信服务控制台\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "SMS Server Console\0"
+            VALUE "LegalCopyright", "Copyright 2007\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "SmsConsole.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "SmsConsole Module\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_TRAY_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "tray"
+    BEGIN
+        MENUITEM "显示服务控制主窗口(&M)",      ID_SHOW_MAIN
+        MENUITEM SEPARATOR
+        MENUITEM "短信服务 - 启动(&S)",         IDC_START
+        MENUITEM "短信服务 - 停止(&O)",         IDC_STOP
+        MENUITEM SEPARATOR
+        MENUITEM "设置...(&T)",                 IDC_SETTING
+        MENUITEM "关于...(&A)",                 ID_ABOUT
+        MENUITEM "退出(&X)",                    ID_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "SmsConsole"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ATL_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STATUS_RUNNING      "手机短信服务 --  正在运行"
+    IDS_STATUS_STOPPED      "手机短信服务 -- 已停止"
+    IDS_STATUS_STARTING     "手机短信服务 -- 正在启动..."
+    IDS_CONNECT_INDICATION  "当前连接:   %d 个"
+    IDS_SENDED_COUNT        "已发短信:   %d 条"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_DISPATCHED_COUNT    "已收短信:   %d 条"
+    IDS_SIGNAL_COUNT        "信号强度:"
+    IDS_DEVICE_SETTING      "短信硬件"
+    IDS_COMMU_SETTING       "通信连接"
+    IDS_ACCOUNT_SETTING     "帐号管理"
+    IDS_OTHER_SETTING       "其他"
+    IDS_ACCOUNT_NAME        "    帐号名   "
+    IDS_ACCOUNT_PASSWORD    "密码"
+    IDS_ACCOUNT_DISPATCH    "是否允许接收"
+    IDS_ACCOUNT_CANUSE      "是否可用"
+    IDS_NAME_EMPTY          "添加失败,用户名不能为空!"
+    IDS_PWD_EMPTY           "添加失败,密码不能为空!"
+    IDS_NAME_EXIST          "添加失败，该用户名的帐号已存在!"
+    IDS_CREATE_PROCESS_ERROR "短信服务启动失败，服务主程序不存在."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_DEVICE_ERROR        " 原因: 短信设备初始化失败 (错误码 %d )"
+    IDS_COMMU_ERROR         " 原因: 通信组件初始化失败 (错误码 %d )"
+    IDS_OTHER_ERROR         " 错误码 %d"
+    IDS_START_FAIL          " 短信服务启动失败."
+    IDS_STARTING_INFO       "短信服务正在启动，请稍候..."
+    IDS_MODIFY_NAME_EXIST   "修改失败，该用户名的帐号已存在!"
+    IDS_MAIN_DLG_TITLE      "SMS Server 服务控制台"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""atlres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST ""res\\\\SmsConsole.exe.manifest""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "res\\SmsConsole.exe.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

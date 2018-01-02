@@ -1,0 +1,26 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SCRes - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"../../obj/Release/SCRes/SCRes.res" /d "NDEBUG" "F:\open src\ScreenCapture\ScreenCapture\src\SCRes\SCRes.rc"" 
+Creating temporary file "C:\Users\richardw\AppData\Local\Temp\RSP8A13.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"../../obj/Release/SCRes/SCRes.pdb" /machine:I386 /out:"../../bin/Release/SCRes.dll" /implib:"../../obj/Release/SCRes/SCRes.lib" /noentry 
+"\open src\ScreenCapture\ScreenCapture\obj\Release\SCRes\SCRes.res"
+]
+Creating command line "link.exe @C:\Users\richardw\AppData\Local\Temp\RSP8A13.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+SCRes.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

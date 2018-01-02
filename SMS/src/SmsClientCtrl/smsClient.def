@@ -1,0 +1,7 @@
+EXPORTS
+	connect_to_server
+	disconnect
+	send_message
+	set_callback
+	get_last_error_code
+	

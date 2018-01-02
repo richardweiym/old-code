@@ -1,0 +1,149 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "ClientDllTest"=..\ClientDllTest\ClientDllTest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SmsClientCtrl
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ClientSocketLib"=..\ClientSocketLib\ClientSocketLib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "RegisterGenerator"=..\RegisterGenerator\RegisterGenerator.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SmsRegister
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SmsClient"=..\SmsClient\SmsClient.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ClientSocketLib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SmsClientCtrl"=..\SmsClientCtrl\SmsClientCtrl.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ClientSocketLib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SmsConsole"=..\SmsConsole\SmsConsole.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SmsRegister
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SmsServer
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SmsRegister"=..\SmsRegister\SmsRegister.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "SmsServer"=.\SmsServer.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name gprs
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SmsRegister
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "gprs"=..\gprs\gprs.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HYUtil - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP1BA.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "../../include/wtl" /I "../../include/HYUtil" /D "WIN32" /D "_DEBUG" /D "UNICODE" /D "_UNICODE" /D "_LIB" /Fo"../../obj/Debug/HYUtil/" /Fd"../../obj/Debug/HYUtil/" /FD /GZ /c 
+"F:\项目刎删\ScreenCapture\src\HYUtil\HYCustomMenu.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP1BA.tmp" 
+Creating temporary file "C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP1BE.tmp" with contents
+[
+/nologo /out:"../../lib/Debug/HYUtil.lib" 
+"\项目刎删\ScreenCapture\obj\Debug\HYUtil\HYPattern.obj"
+"\项目刎删\ScreenCapture\obj\Debug\HYUtil\HYRandom.obj"
+"\项目刎删\ScreenCapture\obj\Debug\HYUtil\HYResMgr.obj"
+"\项目刎删\ScreenCapture\obj\Debug\HYUtil\HYTimer.obj"
+"\项目刎删\ScreenCapture\obj\Debug\HYUtil\HYUIBase.obj"
+"\项目刎删\ScreenCapture\obj\Debug\HYUtil\HYCustomMenu.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP1BE.tmp"
+<h3>Output Window</h3>
+Compiling...
+HYCustomMenu.cpp
+d:\program files\microsoft visual studio\vc98\include\xtree(377) : warning C4786: 'pair<std::_Tree<HWND__ *,std::pair<HWND__ * const,unsigned long>,std::map<HWND__ *,unsigned long,std::less<HWND__ *>,std::allocator<unsigned long> >::_Kfn,std::less<HWND__ *>,std::allocator<unsigned long> >::iterator,std::_Tree<HWND__ *,std::pair<HWND__ * ' : identifier was truncated to '255' characters in the debug information
+        d:\program files\microsoft visual studio\vc98\include\xtree(373) : while compiling class-template member function 'unsigned int __thiscall std::_Tree<struct HWND__ *,struct std::pair<struct HWND__ * const,unsigned long>,struct std::map<struct HWND__ *,unsigned long,struct std::less<struct HWND__ *>,class std::allocator<unsigned long> >::_Kfn,struct std::less<struct HWND__ *>,class std::allocator<unsigned long> >::erase(struct HWND__ *const & )'
+d:\program files\microsoft visual studio\vc98\include\xtree(377) : warning C4786: 'std::pair<std::_Tree<HWND__ *,std::pair<HWND__ * const,unsigned long>,std::map<HWND__ *,unsigned long,std::less<HWND__ *>,std::allocator<unsigned long> >::_Kfn,std::less<HWND__ *>,std::allocator<unsigned long> >::iterator,std::_Tree<HWND__ *,std::pair<HWND__ * const,unsigned long>,std::map<HWND__ *,unsigned long,std::less<HWND__ *>,std::allocator<unsigned long> >::_Kfn,std::less<HWND__ *>,std::allocator<unsigned long> >::iterator>' : identifier was truncated to '255' characters in the debug information
+        d:\program files\microsoft visual studio\vc98\include\xtree(373) : while compiling class-template member function 'unsigned int __thiscall std::_Tree<HWND__ *,std::pair<HWND__ * const,unsigned long>,std::map<HWND__ *,unsigned long,std::less<HWND__ *>,std::allocator<unsigned long> >::_Kfn,std::less<HWND__ *>,std::allocator<unsigned long> >::erase(HWND__ *const & )'
+d:\program files\microsoft visual studio\vc98\include\xtree(183) : warning C4786: 'std::_Tree<HWND__ *,std::pair<HWND__ * const,unsigned long>,std::map<HWND__ *,unsigned long,std::less<HWND__ *>,std::allocator<unsigned long> >::_Kfn,std::less<HWND__ *>,std::allocator<unsigned long> >::~_Tree<HWND__ *,std::pair<HWND__ * const,unsigned long>,std::map<HWND__ *,unsigned long,std::less<HWND__ *>,std::allocator<unsigned long> >::_Kfn,std::less<HWND__ *>,std::allocator<unsigned long> >' : identifier was truncated to '255' characters in the debug information
+d:\program files\microsoft visual studio\vc98\include\xtree(160) : warning C4786: 'std::_Tree<HWND__ *,std::pair<HWND__ * const,unsigned long>,std::map<HWND__ *,unsigned long,std::less<HWND__ *>,std::allocator<unsigned long> >::_Kfn,std::less<HWND__ *>,std::allocator<unsigned long> >::_Tree<HWND__ *,std::pair<HWND__ * const,unsigned long>,std::map<HWND__ *,unsigned long,std::less<HWND__ *>,std::allocator<unsigned long> >::_Kfn,std::less<HWND__ *>,std::allocator<unsigned long> >' : identifier was truncated to '255' characters in the debug information
+d:\program files\microsoft visual studio\vc98\include\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,std::pair<HWND__ * const,unsigned long>,std::map<HWND__ *,unsigned long,std::less<HWND__ *>,std::allocator<unsigned long> >::_Kfn,std::less<HWND__ *>,std::allocator<unsigned long> >::iterator,bool>::pair<std::_Tree<HWND__ *,std::pair<HWND__ * const,unsigned long>,std::map<HWND__ *,unsigned long,std::less<HWND__ *>,std::allocator<unsigned long> >::_Kfn,std::less<HWND__ *>,std::allocator<unsigned long> >::iterator,bool>' : identifier was truncated to '255' characters in the debug information
+d:\program files\microsoft visual studio\vc98\include\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,std::pair<HWND__ * const,unsigned long>,std::map<HWND__ *,unsigned long,std::less<HWND__ *>,std::allocator<unsigned long> >::_Kfn,std::less<HWND__ *>,std::allocator<unsigned long> >::iterator,std::_Tree<HWND__ *,std::pair<HWND__ * const,unsigned long>,std::map<HWND__ *,unsigned long,std::less<HWND__ *>,std::allocator<unsigned long> >::_Kfn,std::less<HWND__ *>,std::allocator<unsigned long> >::iterator>::pair<std::_Tree<HWND__ *,std::pair<HWND__ * const,unsigned long>,std::map<HWND__ *,unsigned long,std::less<HWND__ *>,std::allocator<unsigned long> >::_Kfn,std::less<HWND__ *>,std::allocator<unsigned long> >::iterator,std::_Tree<HWND__ *,std::pair<HWND__ * const,unsigned long>,std::map<HWND__ *,unsigned long,std::less<HWND__ *>,std::allocator<unsigned long> >::_Kfn,std::less<HWND__ *>,std::allocator<unsigned long> >::iterator>' : identifier was truncated to '255' characters in the debug information
+d:\program files\microsoft visual studio\vc98\include\utility(119) : warning C4786: 'std::pair<std::_Tree<HWND__ *,std::pair<HWND__ * const,unsigned long>,std::map<HWND__ *,unsigned long,std::less<HWND__ *>,std::allocator<unsigned long> >::_Kfn,std::less<HWND__ *>,std::allocator<unsigned long> >::iterator,std::_Tree<HWND__ *,std::pair<HWND__ * const,unsigned long>,std::map<HWND__ *,unsigned long,std::less<HWND__ *>,std::allocator<unsigned long> >::_Kfn,std::less<HWND__ *>,std::allocator<unsigned long> >::iterator>' : identifier was truncated to '255' characters in the debug information
+Creating library...
+
+
+
+<h3>Results</h3>
+HYUtil.lib - 0 error(s), 7 warning(s)
+</pre>
+</body>
+</html>

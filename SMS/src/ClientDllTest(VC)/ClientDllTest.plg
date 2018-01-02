@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ClientSocketLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP21E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"../../obj/ClientSocketLib/Release/ClientSocketLib.pch" /YX /Fo"../../obj/ClientSocketLib/Release/" /Fd"../../obj/ClientSocketLib/Release/" /FD /c 
+"F:\SMS\src\ClientSocketLib\SmsSocketClient.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP21E.tmp" 
+Creating command line "link.exe -lib /nologo /out:"../../lib/release/ClientSocketLib.lib"  \SMS\obj\ClientSocketLib\Release\SmsSocketClient.obj "
+<h3>Output Window</h3>
+Compiling...
+SmsSocketClient.cpp
+Creating library...
+<h3>
+--------------------Configuration: SmsClientCtrl - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"../../obj/SmsClientCtrl/Release/SmsClientCtrl.res" /d "NDEBUG" "F:\SMS\src\SmsClientCtrl\SmsClientCtrl.rc"" 
+Creating temporary file "C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP21F.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "../clientsocketlib" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "SMSCLIENTCTRL_EXPORTS" /Fp"../../obj/SmsClientCtrl/Release/SmsClientCtrl.pch" /YX /Fo"../../obj/SmsClientCtrl/Release/" /Fd"../../obj/SmsClientCtrl/Release/" /FD /c 
+"F:\SMS\src\SmsClientCtrl\SmsClientCtrl.cpp"
+"F:\SMS\src\SmsServer\SmsMessage.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP21F.tmp" 
+Creating temporary file "C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP220.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ClientSocketLib.lib /nologo /dll /incremental:no /pdb:"../../obj/SmsClientCtrl/Release/SmsClientCtrl.pdb" /machine:I386 /def:".\smsClient.def" /out:"../../bin/release/SmsClientCtrl.dll" /implib:"../../lib/release/SmsClientCtrl.lib" /libpath:"../../lib/release" 
+\SMS\obj\SmsClientCtrl\Release\SmsClientCtrl.obj
+\SMS\obj\SmsClientCtrl\Release\SmsMessage.obj
+\SMS\obj\SmsClientCtrl\Release\SmsClientCtrl.res
+\SMS\lib\release\ClientSocketLib.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP220.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+SmsClientCtrl.cpp
+SmsMessage.cpp
+Linking...
+   Creating library ../../lib/release/SmsClientCtrl.lib and object ../../lib/release/SmsClientCtrl.exp
+<h3>
+--------------------Configuration: ClientDllTest - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"../../obj/ClientDllTest/Release/ClientDllTest.res" /d "NDEBUG" "F:\SMS\src\ClientDllTest\ClientDllTest.rc"" 
+Creating temporary file "C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP224.tmp" with contents
+[
+/nologo /MT /W3 /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "STRICT" /D "_ATL_MIN_CRT" /Fp"../../obj/ClientDllTest/Release/ClientDllTest.pch" /Yu"stdafx.h" /Fo"../../obj/ClientDllTest/Release/" /Fd"../../obj/ClientDllTest/Release/" /FD /c 
+"F:\SMS\src\ClientDllTest\ClientDllTest.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP224.tmp" 
+Creating temporary file "C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP225.tmp" with contents
+[
+/nologo /MT /W3 /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "STRICT" /D "_ATL_MIN_CRT" /Fp"../../obj/ClientDllTest/Release/ClientDllTest.pch" /Yc"stdafx.h" /Fo"../../obj/ClientDllTest/Release/" /Fd"../../obj/ClientDllTest/Release/" /FD /c 
+"F:\SMS\src\ClientDllTest\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP225.tmp" 
+Creating temporary file "C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP226.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"../../obj/ClientDllTest/Release/ClientDllTest.pdb" /machine:I386 /out:"../../bin/Release//ClientDllTest.exe" /libpath:"../../lib/release" 
+\SMS\obj\ClientDllTest\Release\ClientDllTest.obj
+\SMS\obj\ClientDllTest\Release\stdafx.obj
+\SMS\obj\ClientDllTest\Release\ClientDllTest.res
+\SMS\lib\release\SmsClientCtrl.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP226.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+stdafx.cpp
+Compiling...
+ClientDllTest.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+ClientDllTest.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

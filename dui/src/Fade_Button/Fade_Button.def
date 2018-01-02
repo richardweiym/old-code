@@ -1,0 +1,6 @@
+LIBRARY	"Fade_Button.DLL"
+
+LIBRARY      "Fade_Button.DLL"
+
+EXPORTS
+	NewInstance	@1 private

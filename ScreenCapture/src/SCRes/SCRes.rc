@@ -1,0 +1,364 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "../../include/ScreenCapture/SCRes.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "../../include/ScreenCapture/SCRes.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_CANVAS_SHADOW_1     BITMAP  DISCARDABLE     "Res\\canvas_s.bmp"
+IDB_WATER_MARK_1        BITMAP  DISCARDABLE     "Res\\water_mark_1.bmp"
+IDB_WATER_MARK_2        BITMAP  DISCARDABLE     "Res\\water_mark_2.bmp"
+IDB_TOOL_SEP_BK         BITMAP  DISCARDABLE     "Res\\tool_sep.bmp"
+IDB_TOOL_BTN_BK         BITMAP  DISCARDABLE     "Res\\tool_btn_bk.bmp"
+IDB_TOOL_BTN_SELECT     BITMAP  DISCARDABLE     "Res\\tool_btn_img.bmp"
+IDB_FLOAT_MENU_1        BITMAP  DISCARDABLE     "Res\\float_menu_img.bmp"
+IDB_FLOAT_DRAG_BK_1     BITMAP  DISCARDABLE     "Res\\float_drag_Bk.bmp"
+IDB_FLOAT_DRAG_1        BITMAP  DISCARDABLE     "Res\\float_drag_img.bmp"
+IDB_FLOAT_MENU_BK_1     BITMAP  DISCARDABLE     "Res\\float_menu_Bk.bmp"
+IDB_TOOL_BTN_RECT_1     BITMAP  DISCARDABLE     "Res\\tool_rect_btn_img.bmp"
+IDB_TOOL_BTN_ELLIPSE_1  BITMAP  DISCARDABLE     "Res\\tool_eclipse_btn_img.bmp"
+IDB_FLOAT_MENU_2        BITMAP  DISCARDABLE     "Res\\float_menu_img_2.bmp"
+IDB_BTN_PEN_SMALL1      BITMAP  DISCARDABLE     "Res\\btn_pen_Small.bmp"
+IDB_BTN_PEN_BIG1        BITMAP  DISCARDABLE     "Res\\btn_pen_Big.bmp"
+IDB_BTN_PEN_BK1         BITMAP  DISCARDABLE     "Res\\btn_pen_bk.bmp"
+IDB_BTN_PEN_MIDDLE1     BITMAP  DISCARDABLE     "Res\\btn_pen_Middle.bmp"
+IDB_TOOL_BTN_LINE_1     BITMAP  DISCARDABLE     "Res\\tool_line_btn_img.bmp"
+IDB_TOOL_BTN_PEN_1      BITMAP  DISCARDABLE     "Res\\tool_pen_btn_img.bmp"
+IDB_TOOL_BTN_TEXT_1     BITMAP  DISCARDABLE     "Res\\tool_text_btn_img.bmp"
+IDB_BTN_FONT_BOLD_1     BITMAP  DISCARDABLE     "Res\\btn_font_bold.bmp"
+IDB_TOOL_BTN_ERASER_1   BITMAP  DISCARDABLE     "Res\\tool_eraser_btn_img.bmp"
+IDB_TOOL_BTN_ARROW_1    BITMAP  DISCARDABLE     "Res\\tool_arrow_btn_img.bmp"
+IDB_START_BTN_BK_1      BITMAP  DISCARDABLE     "Res\\start_btn_bk.bmp"
+IDB_START_BTN_1         BITMAP  DISCARDABLE     "Res\\start_btn.bmp"
+IDB_CLOSE_BTN_BK_1      BITMAP  DISCARDABLE     "Res\\close_btn_bk.bmp"
+IDB_CLOSE_BTN_1         BITMAP  DISCARDABLE     "Res\\close_btn.bmp"
+IDB_FLOAT_DRAG_2        BITMAP  DISCARDABLE     "Res\\float_drag_img_2.bmp"
+IDB_FLOAT_DRAG_BK_2     BITMAP  DISCARDABLE     "Res\\float_drag_Bk_2.bmp"
+IDB_FLOAT_TOOL_BK_1     BITMAP  DISCARDABLE     "Res\\float_tool_Bk.bmp"
+IDB_FLOAT_MENU_BK_2     BITMAP  DISCARDABLE     "Res\\float_menu_Bk_2.bmp"
+IDB_FLOAT_TOOL_BK_2     BITMAP  DISCARDABLE     "Res\\float_tool_Bk_2.bmp"
+IDB_TOOL_BTN_BK_2       BITMAP  DISCARDABLE     "Res\\tool_btn_bk_2.bmp"
+IDB_TOOL_BTN_SELECT_2   BITMAP  DISCARDABLE     "Res\\tool_btn_img_2.bmp"
+IDB_TOOL_SEP_BK_2       BITMAP  DISCARDABLE     "Res\\tool_sep_2.bmp"
+IDB_TOOL_BTN_RECT_2     BITMAP  DISCARDABLE     "Res\\tool_rect_btn_img_2.bmp"
+IDB_TOOL_BTN_ELLIPSE_2  BITMAP  DISCARDABLE     "Res\\tool_eclipse_btn_img_2.bmp"
+IDB_TOOL_BTN_LINE_2     BITMAP  DISCARDABLE     "Res\\tool_line_btn_img_2.bmp"
+IDB_TOOL_BTN_ARROW_2    BITMAP  DISCARDABLE     "Res\\tool_arrow_btn_img_2.bmp"
+IDB_TOOL_BTN_PEN_2      BITMAP  DISCARDABLE     "Res\\tool_pen_btn_img_2.bmp"
+IDB_TOOL_BTN_TEXT_2     BITMAP  DISCARDABLE     "Res\\tool_text_btn_img_2.bmp"
+IDB_TOOL_BTN_ERASER_2   BITMAP  DISCARDABLE     "Res\\tool_eraser_btn_img_2.bmp"
+IDB_SUB_FLOAT_TOOL_BK_2 BITMAP  DISCARDABLE     "Res\\sub_float_tool_bk_2.bmp"
+IDB_SUB_FLOAT_TOOL_BK_1 BITMAP  DISCARDABLE     "Res\\sub_float_tool_bk_1.bmp"
+IDB_BTN_PEN_BK_2        BITMAP  DISCARDABLE     "Res\\btn_pen_bk_2.bmp"
+IDB_BTN_PEN_SMALL_2     BITMAP  DISCARDABLE     "Res\\btn_pen_Small_2.bmp"
+IDB_BTN_PEN_MIDDLE_2    BITMAP  DISCARDABLE     "Res\\btn_pen_Middle_2.bmp"
+IDB_BTN_PEN_BIG_2       BITMAP  DISCARDABLE     "Res\\btn_pen_Big_2.bmp"
+IDB_BTN_FONT_BOLD_2     BITMAP  DISCARDABLE     "Res\\btn_font_bold_2.bmp"
+IDB_MENU_CHECK_BOX_1    BITMAP  DISCARDABLE     "Res\\menu_check_box.bmp"
+IDB_MENU_CHECK_BOX_2    BITMAP  DISCARDABLE     "Res\\menu_check_box_2.bmp"
+IDB_TOOL_BTN_WIN_SELECT1 BITMAP  DISCARDABLE     "Res\\tool_win_select_btn_img_1.bmp"
+IDB_TOOL_BTN_WIN_SELECT2 BITMAP  DISCARDABLE     "Res\\tool_win_select_btn_img_2.bmp"
+IDB_CANVAS_SHADOW_2     BITMAP  DISCARDABLE     "Res\\canvas_s_2.bmp"
+IDB_INFO_BUBBLE_BK_1    BITMAP  DISCARDABLE     "Res\\info_bubble_bk_1.bmp"
+IDB_INFO_BUBBLE_BK_2    BITMAP  DISCARDABLE     "Res\\info_bubble_bk_2.bmp"
+IDB_TITLE_BK_1          BITMAP  DISCARDABLE     "Res\\title_bk_1.bmp"
+IDB_TITLE_BK_2          BITMAP  DISCARDABLE     "Res\\title_bk_2.bmp"
+IDB_ABOUT_WAVE_BK       BITMAP  DISCARDABLE     "Res\\about_wave_bk.BMP"
+IDB_DLG_BTN_IMG         BITMAP  DISCARDABLE     "Res\\dialog_btn_img_1.bmp"
+IDB_DLG_BTN_BK          BITMAP  DISCARDABLE     "Res\\dialog_btn_BK_1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_DEFAULT_CURSOR      CURSOR  DISCARDABLE     "res\\default_.cur"
+IDC_PEN_CURSOR          CURSOR  DISCARDABLE     "res\\pen_curs.cur"
+IDC_ERASER_CURSOR       CURSOR  DISCARDABLE     "res\\eraser_c.cur"
+IDC_SELECT_CURSOR       CURSOR  DISCARDABLE     "Res\\select_c.cur"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,0,1
+ PRODUCTVERSION 2,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "SCRes\0"
+            VALUE "FileVersion", "2, 0, 0, 1\0"
+            VALUE "InternalName", "SCRes\0"
+            VALUE "LegalCopyright", "Copyright  2009\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "SCRes.dll\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "HengYu SCRes\0"
+            VALUE "ProductVersion", "2, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUT DIALOG DISCARDABLE  0, 0, 273, 158
+STYLE WS_POPUP
+FONT 8, "Tahoma"
+BEGIN
+END
+
+IDD_ABOUT_INFO DIALOG DISCARDABLE  0, 0, 248, 66
+STYLE WS_CHILD
+FONT 8, "Tahoma"
+BEGIN
+    LTEXT           "Version: Super-Fish Screen Capture V2.0.0.1",IDC_STATIC,
+                    3,3,155,12
+    LTEXT           "Contact: 55841310@qq.com",IDC_STATIC,3,27,155,12
+    LTEXT           "Thanks: Thanks for Elliot's trial suggestions",
+                    IDC_STATIC,3,51,155,12
+    LTEXT           "Developer: Richard Wei",IDC_STATIC,3,15,155,12
+    PUSHBUTTON      "OK",IDOK,179,40,48,14
+    LTEXT           "Site:",IDC_STATIC,3,39,17,12
+    LTEXT           "http://aisnote.com/download/",IDC_SITE,26,39,113,11
+END
+
+IDD_SETTING DIALOGEX 0, 0, 239, 170
+STYLE WS_POPUP
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    CONTROL         "Show zoom tip",IDC_CHECK_SHOW_ZOOM,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,19,34,127,12
+    CONTROL         "Show cursor",IDC_CHECK_SHOW_CURSOR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,19,50,127,12
+    CONTROL         "Transparent annotations",IDC_CHECK_TRANSPARENT_MARK,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,68,127,12
+    CONTROL         "Double click to copy and close",IDC_CHECK_DBCLICK_CLOSE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,85,127,12
+    DEFPUSHBUTTON   "OK",IDOK,185,148,43,14
+    GROUPBOX        "Option",IDC_STATIC,11,23,216,82
+    GROUPBOX        "File path",IDC_STATIC,11,111,215,35
+    LTEXT           "External Editor:",IDC_STATIC,17,124,51,13
+    EDITTEXT        IDC_EDIT_IMAGE_EDITOR,73,123,147,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+END
+
+IDD_SAVE_IMAGE DIALOGEX 0, 0, 212, 101
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    LTEXT           "",1119,1,1,207,72
+    CONTROL         "Exit current screen capture after image is saved",
+                    IDC_CHECK_CLOSE_SCREEN_CAPTURE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,13,76,195,12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 271
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_ABOUT_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 244
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 63
+    END
+
+    IDD_SETTING, DIALOG
+    BEGIN
+        RIGHTMARGIN, 236
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_SAVE_IMAGE, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 99
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SKIN_NAME_1         "Light Blue"
+    IDS_SKIN_NAME_2         "Heavy Purple"
+    IDS_TOOL_SELECT_TIP     "Select Screen Capture Region  (Ctrl+C)"
+    IDS_TOOL_RECT_TIP       "Rect Tool  (Ctrl+R)"
+    IDS_TOOL_ELLIPSE_TIP    "Ellipse Tool  (Ctrl+E)"
+    IDS_TOOL_EXTEND_MENU_TIP "Screen Capture Menu Control"
+    IDS_TOOL_LINE_TIP       "Line Tool  (Ctrl+L)"
+    IDS_TOOL_PEN_TIP        "Pen Tool  (Ctrl+P)"
+    IDS_TOOL_TEXT_TIP       "Text Tool  (Ctrl+T)"
+    IDS_DEFAULT_TEXT_FONT_NAME "Tahoma"
+    IDS_TOOL_ERASER_TIP     "Eraser Tool  (Ctrl+N)"
+    IDS_TOOL_ARROW_TIP      "Arrow Tool  (Ctrl+O)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MENU_TOOL           "Tool"
+    IDS_MENU_SELECT         "Select &Capture\tCtrl+C"
+    IDS_MENU_RECT           "&Rect\tCtrl+R"
+    IDS_MENU_ELLIPSE        "&Ellipse\tCtrl+E"
+    IDS_MENU_LINE           "&Line\tCtrl+L"
+    IDS_MENU_ARROW          "Arr&ow\tCtrl+O"
+    IDS_MENU_PEN            "&Pen\tCtrl+P"
+    IDS_MENU_TEXT           "&Text\tCtrl+T"
+    IDS_MENU_ERASER         "Er&aser\tCtrl+N"
+    IDS_MENU_UNDO           "&Undo\tCtrl+Z"
+    IDS_MENU_REDO           "&Redo\tCtrl+Y"
+    IDS_MENU_SKIN           "Skin"
+    IDS_MENU_HELP_TIP       "Show Help Tip"
+    IDS_MENU_SAVE           "&Save...\tCtrl+S"
+    IDS_COPY_EXIT           "Copy && Close\tCtrl+Q"
+    IDS_START_CAPTURE       "Ready (F8)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CLOSE_BTN_TIP       "Close"
+    IDS_SAVE_DLG_TITLE      "Save Screen Capture"
+    IDS_SAVE_FILE_DEF_NAME  "ScreenCapture"
+    IDS_MENU_EXIT           "Close\tEsc"
+    IDS_HELP_TIP_FORMAT     "\n\n Current size: ( %u * %u )\n\n Current RGB: ( %u , %u , %u )"
+    IDS_MENU_DOUBLE_CLICK_EXIT "Double Click Mouse to Copy && Exit"
+    IDS_TOOL_WIN_SELECT_TIP "Select Screen Capture Rect by Window  (Ctrl+W)"
+    IDS_MENU_WIN_SELECT     "Select &Window Capture\tCtrl+W"
+    IDS_MENU_SHOW_CURSOR    "Screen Capture Include the Cursor"
+    IDS_LAN_NAME_1          "English"
+    IDS_LAN_NAME_2          "Chinese"
+    IDS_MENU_LAN            "Language"
+    IDS_IMAGE_COPY_TIP      "Screen capture image has been copied to the clipboard."
+    IDS_IMAGE_COPY_TIP2     "Whole screen image has been copied to the clipboard."
+    IDS_TRANSPARENT_ANNOTATION "Transparent Annotation"
+    IDS_ABOUT               "About..."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUT_TITLE         "About Super-Fish Screen Capture"
+    IDS_SETTING             "Setting..."
+    IDS_SETTING_TITLE       "Screen Capture Setting"
+    IDS_MENU_SAVE_EDIT      "Save && Edit...\tCtrl+M"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,43 @@
+#pragma  once 
+
+class CSMSMessage;
+
+//GPRS设备工作后可能发生的回调消息
+const INT WM_SMS_DEVICE_BASE =  100;
+const INT WM_SMS_DEVICE_RECEIVE = WM_SMS_DEVICE_BASE+1; //收到短信
+const INT WM_SMS_DEVICE_ERROR = WM_SMS_DEVICE_BASE+2;	//短信设备异常中止
+const INT WM_SMS_DEVICE_SENDED = WM_SMS_DEVICE_BASE+3;	//发送完一条短信
+const INT WM_SMS_DEVICE_STARTED = WM_SMS_DEVICE_BASE+4;	//启动设备
+const INT WM_SMS_DEVICE_STOPPED = WM_SMS_DEVICE_BASE+5;	//停止设备
+const INT WM_SMS_DEVICE_SIGNAL_COUNT = WM_SMS_DEVICE_BASE + 6; //返回设备信号强度
+
+typedef VOID (__stdcall *SMS_DEVICE_CALLBACK)(UINT nMsgType,WPARAM wParam,LPARAM lParam);
+
+
+#ifdef __cplusplus
+extern "C" 
+{
+#endif //__cplusplus
+	BOOL __stdcall GPRSSetParameters(LPCTSTR szParams);
+	BOOL __stdcall GPRSStart();
+	BOOL __stdcall GPRSSend(CSMSMessage* msg);
+	VOID __stdcall GPRSStop();
+	VOID __stdcall GPRSRegisterCallback(SMS_DEVICE_CALLBACK pCallback);
+	INT  __stdcall GPRSGetLastErrorCode();
+	BOOL __stdcall GPRSIsRunning();
+	
+#ifdef __cplusplus
+}
+#endif //__cplusplus
+
+const INT SMS_DEVICE_ERROR_BASE = 100;
+const INT SMS_DEVICE_ERROR_AGENT_CREATE = SMS_DEVICE_ERROR_BASE + 1;
+const INT SMS_DEVICE_ERROR_PORT_OPEN = SMS_DEVICE_ERROR_BASE + 2;
+const INT SMS_DEVICE_ERROR_CREATE_THREAD = SMS_DEVICE_ERROR_BASE + 3;
+const INT SMS_DEVICE_ERROR_COMMAND_TIMEOUT = SMS_DEVICE_ERROR_BASE + 4;
+const INT SMS_DEVICE_ERROR_CPIN = SMS_DEVICE_ERROR_BASE + 5;
+const INT SMS_DEVICE_ERROR_CMEE = SMS_DEVICE_ERROR_BASE + 6;
+const INT SMS_DEVICE_ERROR_CMGF = SMS_DEVICE_ERROR_BASE + 7;
+const INT SMS_DEVICE_ERROR_CNMI = SMS_DEVICE_ERROR_BASE + 8;
+const INT SMS_DEVICE_ERROR_CSCA = SMS_DEVICE_ERROR_BASE + 9;
+const INT SMS_DEVICE_ERROR_CMGD_ALL = SMS_DEVICE_ERROR_BASE + 10;

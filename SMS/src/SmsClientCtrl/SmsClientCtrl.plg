@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ClientSocketLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP187.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"../../obj/ClientSocketLib/Release/ClientSocketLib.pch" /YX /Fo"../../obj/ClientSocketLib/Release/" /Fd"../../obj/ClientSocketLib/Release/" /FD /c 
+"F:\SMS\src\ClientSocketLib\SmsSocketClient.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP187.tmp" 
+Creating command line "link.exe -lib /nologo /out:"../../lib/release/ClientSocketLib.lib"  \SMS\obj\ClientSocketLib\Release\SmsSocketClient.obj "
+<h3>Output Window</h3>
+Compiling...
+SmsSocketClient.cpp
+Creating library...
+<h3>
+--------------------Configuration: SmsClientCtrl - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP188.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "../clientsocketlib" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "SMSCLIENTCTRL_EXPORTS" /Fp"../../obj/SmsClientCtrl/Release/SmsClientCtrl.pch" /YX /Fo"../../obj/SmsClientCtrl/Release/" /Fd"../../obj/SmsClientCtrl/Release/" /FD /c 
+"F:\SMS\src\SmsClientCtrl\SmsClientCtrl.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP188.tmp" 
+Creating temporary file "C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP189.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ClientSocketLib.lib /nologo /dll /incremental:no /pdb:"../../obj/SmsClientCtrl/Release/SmsClientCtrl.pdb" /machine:I386 /def:".\smsClient.def" /out:"../../bin/release/SmsClientCtrl.dll" /implib:"../../lib/release/SmsClientCtrl.lib" /libpath:"../../lib/release" 
+\SMS\obj\SmsClientCtrl\Release\SmsClientCtrl.obj
+\SMS\obj\SmsClientCtrl\Release\SmsMessage.obj
+\SMS\obj\SmsClientCtrl\Release\SmsClientCtrl.res
+\SMS\lib\release\ClientSocketLib.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP189.tmp"
+<h3>Output Window</h3>
+Compiling...
+SmsClientCtrl.cpp
+Linking...
+   Creating library ../../lib/release/SmsClientCtrl.lib and object ../../lib/release/SmsClientCtrl.exp
+LINK : warning LNK4098: defaultlib "LIBCMT" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+SmsClientCtrl.dll - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TsUIFrame - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\richard\AppData\Local\Temp\RSPBA24.tmp" with contents
+[
+/nologo /o"../../obj/TsUIFrame/Debug/TsUIFrame.bsc" 
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsButton.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsDataKernel.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsDialogBase.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsDisplayContainer.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsGameContext.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsGameMainWnd.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsMainButtonPane.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsMainControlPane.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsMainDisplayPane.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsMainStatusPane.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsResMgr.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsSetupDlg.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsUIDataMgr.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsUIInstanceApi.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsUIModuleBase.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsWebContainer.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsWinFrame.sbr]
+Creating command line "bscmake.exe @C:\Users\richard\AppData\Local\Temp\RSPBA24.tmp"
+Creating browse info file...
+BSCMAKE: error BK1515 : '../../obj/TsUIFrame/Debug/TsUIFrame.bsc': incompatible version; cannot incrementally update
+Error executing bscmake.exe.
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+TsUIFrame.lib - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

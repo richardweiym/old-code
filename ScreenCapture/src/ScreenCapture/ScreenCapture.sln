@@ -1,0 +1,40 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HYUtil", "..\HYUtil\HYUtil.vcproj", "{32C0E318-4BD5-4417-9091-427ECABEC9F9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SCRes", "..\SCRes\SCRes.vcproj", "{C248FC84-0A13-423E-892C-729FD318DD1D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SCSCHRes", "..\SCRes\SCSCHRes.vcproj", "{1428EB75-77E4-4DCB-A97D-35DD9163173A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ScreenCapture", "ScreenCapture.vcproj", "{99704649-22E7-4ADA-80AC-D41414456ECB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{32C0E318-4BD5-4417-9091-427ECABEC9F9} = {32C0E318-4BD5-4417-9091-427ECABEC9F9}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32C0E318-4BD5-4417-9091-427ECABEC9F9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{32C0E318-4BD5-4417-9091-427ECABEC9F9}.Debug|Win32.Build.0 = Debug|Win32
+		{32C0E318-4BD5-4417-9091-427ECABEC9F9}.Release|Win32.ActiveCfg = Release|Win32
+		{32C0E318-4BD5-4417-9091-427ECABEC9F9}.Release|Win32.Build.0 = Release|Win32
+		{C248FC84-0A13-423E-892C-729FD318DD1D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C248FC84-0A13-423E-892C-729FD318DD1D}.Debug|Win32.Build.0 = Debug|Win32
+		{C248FC84-0A13-423E-892C-729FD318DD1D}.Release|Win32.ActiveCfg = Release|Win32
+		{C248FC84-0A13-423E-892C-729FD318DD1D}.Release|Win32.Build.0 = Release|Win32
+		{1428EB75-77E4-4DCB-A97D-35DD9163173A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1428EB75-77E4-4DCB-A97D-35DD9163173A}.Debug|Win32.Build.0 = Debug|Win32
+		{1428EB75-77E4-4DCB-A97D-35DD9163173A}.Release|Win32.ActiveCfg = Release|Win32
+		{1428EB75-77E4-4DCB-A97D-35DD9163173A}.Release|Win32.Build.0 = Release|Win32
+		{99704649-22E7-4ADA-80AC-D41414456ECB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{99704649-22E7-4ADA-80AC-D41414456ECB}.Debug|Win32.Build.0 = Debug|Win32
+		{99704649-22E7-4ADA-80AC-D41414456ECB}.Release|Win32.ActiveCfg = Release|Win32
+		{99704649-22E7-4ADA-80AC-D41414456ECB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

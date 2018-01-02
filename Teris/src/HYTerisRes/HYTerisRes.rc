@@ -1,0 +1,309 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "../../include/HYTeris/TerisRes.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "../../include/HYTeris/TerisRes.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "番茄花园\0"
+            VALUE "FileDescription", "HYTeris\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "HYTeris\0"
+            VALUE "LegalCopyright", "Copyright ? 2009\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "HYTeris.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "番茄花园 HYTeris\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_MAIN_BTN_BK         BITMAP  DISCARDABLE     "res\\btn_bk.bmp"
+IDB_MAIN_BTN_IMG        BITMAP  DISCARDABLE     "res\\btn.bmp"
+IDB_DLG_BK              BITMAP  DISCARDABLE     "res\\dlg_bk.bmp"
+IDB_GAME_TYPE           BITMAP  DISCARDABLE     "res\\game_typ.bmp"
+IDB_USER_ICON           BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SETUP_DLG DIALOG DISCARDABLE  0, 0, 214, 313
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设置"
+FONT 10, "宋体"
+BEGIN
+    EDITTEXT        IDC_LEFT_MOVE_LEFT,45,44,47,15,ES_CENTER | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_LEFT_MOVE_RIGHT,45,59,47,16,ES_CENTER | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_LEFT_SWITCH,45,75,47,15,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_LEFT_DROP_DOWN,45,89,47,15,ES_CENTER | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_LEFT_MOVE_DOWN,45,104,47,15,ES_CENTER | 
+                    ES_AUTOHSCROLL
+    CONTROL         "顺时针",IDC_LEFT_CLOCK_WISE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,45,124,35,11
+    CONTROL         "逆时针",IDC_LEFT_ANTI_CLOCK_WISE,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,44,137,36,11
+    EDITTEXT        IDC_RIGHT_MOVE_LEFT,138,46,47,15,ES_CENTER | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_RIGHT_MOVE_RIGHT,138,60,47,16,ES_CENTER | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_RIGHT_SWITCH,138,76,47,15,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_RIGHT_DROP_DOWN,138,90,47,15,ES_CENTER | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_RIGHT_MOVE_DOWN,138,105,47,15,ES_CENTER | 
+                    ES_AUTOHSCROLL
+    CONTROL         "顺时针",IDC_RIGHT_CLOCK_WISE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,138,126,34,11
+    CONTROL         "逆时针",IDC_RIGHT_ANTI_CLOCK_WISE,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,137,138,36,11
+    CONTROL         "左边窗口",IDC_USE_LEFT,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,45,174,45,11
+    CONTROL         "右边窗口",IDC_USE_RIGHT,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,138,175,45,11
+    CONTROL         "彩色",IDC_USE_COLOR,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,46,234,29,11
+    CONTROL         "黑白",IDC_USE_BLACK,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,139,236,30,11
+    CONTROL         "声音效果",IDC_USE_SOUND,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,268,44,11
+    DEFPUSHBUTTON   "确定",IDOK,98,287,46,14
+    PUSHBUTTON      "取消",IDCANCEL,153,287,46,14
+    GROUPBOX        "按键设置",IDC_STATIC,10,14,187,139,BS_CENTER
+    LTEXT           "左边窗口",IDC_STATIC,33,29,39,8
+    LTEXT           "左移:",IDC_STATIC,19,44,22,9
+    LTEXT           "右移:",IDC_STATIC,19,60,22,9
+    LTEXT           "旋转:",IDC_STATIC,19,76,22,9
+    LTEXT           "丢下:",IDC_STATIC,19,92,22,9
+    LTEXT           "下落:",IDC_STATIC,19,108,22,9
+    LTEXT           "旋转:",IDC_STATIC,19,126,22,9
+    LTEXT           "右边窗口",IDC_STATIC,126,30,39,8
+    LTEXT           "左移:",IDC_STATIC,112,46,22,9
+    LTEXT           "右移:",IDC_STATIC,112,62,22,9
+    LTEXT           "旋转:",IDC_STATIC,112,78,22,9
+    LTEXT           "丢下:",IDC_STATIC,112,94,22,9
+    LTEXT           "下落:",IDC_STATIC,112,110,22,9
+    LTEXT           "旋转:",IDC_STATIC,112,127,22,9
+    GROUPBOX        "使用窗口",IDC_STATIC,12,159,184,57,BS_CENTER
+    GROUPBOX        "颜色方案",IDC_STATIC,14,223,183,34,BS_CENTER
+    LTEXT           "昵称:",IDC_STATIC,17,194,22,9
+    EDITTEXT        IDC_LEFT_NAME,43,190,50,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RIGHT_NAME,138,190,50,15,ES_AUTOHSCROLL
+END
+
+IDD_SINGLE_TYPE_DLG DIALOG DISCARDABLE  0, 0, 105, 70
+STYLE WS_CHILD
+FONT 10, "宋体"
+BEGIN
+    RADIOBUTTON     "单人游戏",IDC_PLAY_SINGLE,25,9,40,10,WS_GROUP
+    RADIOBUTTON     "人机对战",IDC_PLAY_COMPUTER,25,23,40,10
+    RADIOBUTTON     "双人游戏",IDC_PLAY_TWO,25,39,40,10
+END
+
+IDD_GAME_OPTION_DLG DIALOG DISCARDABLE  0, 0, 133, 71
+STYLE WS_CHILD
+FONT 10, "宋体"
+BEGIN
+    COMBOBOX        IDC_LEVEL,42,8,63,45,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "难度:",IDC_STATIC_LEVEL,6,9,34,11
+    LTEXT           "起始行数:",IDC_STATIC_START_LINE,6,30,34,8
+    COMBOBOX        IDC_START_LINE,43,27,62,42,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "录制游戏",IDC_RECORD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,6,49,43,11
+END
+
+IDD_START_CONTROL_DLG DIALOG DISCARDABLE  0, 0, 101, 55
+STYLE WS_CHILD
+FONT 10, "宋体"
+BEGIN
+    PUSHBUTTON      "开始",IDC_START_BUTTON,23,9,49,16
+    PUSHBUTTON      "暂停",IDC_PAUSE_BUTTON,23,33,49,16
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_SETUP_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 210
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 310
+    END
+
+    IDD_SINGLE_TYPE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 100
+        BOTTOMMARGIN, 69
+    END
+
+    IDD_START_CONTROL_DLG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 100
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_ON_BUTTON_WAVE      WAVE    DISCARDABLE     "res\\wave1.bin"
+IDR_CLICK_BUTTON_WAVE   WAVE    DISCARDABLE     "res\\bin00001.bin"
+IDR_WIN_WAVE            WAVE    DISCARDABLE     "res\\bin00002.bin"
+IDR_LOST_WAVE           WAVE    DISCARDABLE     "res\\bin00003.bin"
+IDR_DROP_DOWN_WAVE      WAVE    DISCARDABLE     "res\\bin00004.bin"
+IDR_REMOVE_LINE_WAVE    WAVE    DISCARDABLE     "res\\bin00005.bin"
+IDR_KILL_LINE_WAVE      WAVE    DISCARDABLE     "res\\bin00006.bin"
+IDR_LEAVE_GAME_WAVE     WAVE    DISCARDABLE     "res\\bin00007.bin"
+IDR_PRODUCE_GARBAGE_WAVE WAVE    DISCARDABLE     "res\\bin00008.bin"
+IDR_START_GAME_WAVE     WAVE    DISCARDABLE     "res\\bin00009.bin"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SINGLE_BTN_TEXT     "单机游戏"
+    IDS_NET_BTN_TEXT        "联机游戏"
+    IDS_RECORD_PLAY_BTN_TEXT "播放录像"
+    IDS_SETUP_BTN_TEXT      "设置"
+    IDS_SCORE               "分数"
+    IDS_ELEMENT_COUNT       "块数"
+    IDS_REMOVE_LINE         "行数"
+    IDS_WIN_COUNT           "比分"
+    IDS_PLAYER_NAME         "玩家"
+    IDS_KEY_DUPLICATE       "该键已被使用"
+    IDS_SINGLE_TYPE         "游戏类型"
+    IDS_GAME_OPTION         "游戏选项"
+    IDS_USER_LIST           "玩家列表"
+    IDS_LEVEL_EASY          "容易"
+    IDS_LEVEL_MIDDLE        "中等"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_LEVEL_HARD          "难"
+    IDS_LEVEL_CRAZY         "极难"
+    IDS_START               "开始"
+    IDS_END                 "结束"
+    IDS_PAUSE               "暂停"
+    IDS_RESUME              "继续"
+    IDS_USER_COLUMN_NAME    "昵称"
+    IDS_USER_COLUMN_TYPE    "类型"
+    IDS_USER_TYPE_COMPUTER  "电脑玩家"
+    IDS_USER_TYPE_LOCAL_CONTROL "本地玩家"
+    IDS_USER_TYPE_NET_CONTROL "网络玩家"
+    IDS_USER_TYPE_NET_OBSERVER "观战玩家"
+    IDS_COMPUTER_NAME       "深蓝"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

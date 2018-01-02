@@ -1,0 +1,134 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ClientSocketLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\richard\AppData\Local\Temp\RSP1584.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"../../obj/ClientSocketLib/Release/ClientSocketLib.pch" /YX /Fo"../../obj/ClientSocketLib/Release/" /Fd"../../obj/ClientSocketLib/Release/" /FD /c 
+"F:\code\MyCode\SMS\src\ClientSocketLib\SmsSocketClient.cpp"
+]
+Creating command line "cl.exe @C:\Users\richard\AppData\Local\Temp\RSP1584.tmp" 
+Creating command line "link.exe -lib /nologo /out:"../../lib/release/ClientSocketLib.lib"  \code\MyCode\SMS\obj\ClientSocketLib\Release\SmsSocketClient.obj "
+<h3>Output Window</h3>
+Compiling...
+SmsSocketClient.cpp
+Creating library...
+<h3>
+--------------------Configuration: SmsClient - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"../../obj/SmsClient/Release/SmsClient.res" /d "NDEBUG" "F:\code\MyCode\SMS\src\SmsClient\SmsClient.rc"" 
+Creating temporary file "C:\Users\richard\AppData\Local\Temp\RSP21F3.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "STRICT" /FR"../../obj/SmsClient/Release/" /Fp"../../obj/SmsClient/Release/SmsClient.pch" /Yu"stdafx.h" /Fo"../../obj/SmsClient/Release/" /Fd"../../obj/SmsClient/Release/" /FD /c 
+"F:\code\MyCode\SMS\src\SmsClient\ContactManager.cpp"
+"F:\code\MyCode\SMS\src\SmsClient\DBOperate.cpp"
+"F:\code\MyCode\SMS\src\SmsClient\MainFrame.cpp"
+"F:\code\MyCode\SMS\src\SmsClient\messageManager.cpp"
+"F:\code\MyCode\SMS\src\SmsClient\ServiceManager.cpp"
+"F:\code\MyCode\SMS\src\SmsClient\SmsBoxTree.cpp"
+"F:\code\MyCode\SMS\src\SmsClient\SmsClient.cpp"
+"F:\code\MyCode\SMS\src\SmsClient\SmsClientDlg.cpp"
+"F:\code\MyCode\SMS\src\SmsClient\SmsClientView.cpp"
+"F:\code\MyCode\SMS\src\SmsClient\SmsContactTree.cpp"
+"F:\code\MyCode\SMS\src\SmsClient\SmsDetailDlg.cpp"
+"F:\code\MyCode\SMS\src\SmsClient\SmsIconTray.cpp"
+"F:\code\MyCode\SMS\src\SmsServer\SmsMessage.cpp"
+"F:\code\MyCode\SMS\src\SmsClient\SmsMessageLib.cpp"
+"F:\code\MyCode\SMS\src\SmsClient\SmsSearch.cpp"
+"F:\code\MyCode\SMS\src\SmsClient\SmsSendMessage.cpp"
+"F:\code\MyCode\SMS\src\SmsClient\userManager.cpp"
+]
+Creating command line "cl.exe @C:\Users\richard\AppData\Local\Temp\RSP21F3.tmp" 
+Creating temporary file "C:\Users\richard\AppData\Local\Temp\RSP21F4.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "STRICT" /FR"../../obj/SmsClient/Release/" /Fp"../../obj/SmsClient/Release/SmsClient.pch" /Yc"stdafx.h" /Fo"../../obj/SmsClient/Release/" /Fd"../../obj/SmsClient/Release/" /FD /c 
+"F:\code\MyCode\SMS\src\SmsClient\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\Users\richard\AppData\Local\Temp\RSP21F4.tmp" 
+Creating temporary file "C:\Users\richard\AppData\Local\Temp\RSP21F5.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib clientsocketlib.lib /nologo /subsystem:windows /incremental:no /pdb:"../../obj/SmsClient/Release/SmsExpress.pdb" /machine:I386 /out:"../../bin/Release/SmsExpress.exe" /libpath:"../../lib/release" 
+\code\MyCode\SMS\obj\SmsClient\Release\ContactManager.obj
+\code\MyCode\SMS\obj\SmsClient\Release\DBOperate.obj
+\code\MyCode\SMS\obj\SmsClient\Release\MainFrame.obj
+\code\MyCode\SMS\obj\SmsClient\Release\messageManager.obj
+\code\MyCode\SMS\obj\SmsClient\Release\ServiceManager.obj
+\code\MyCode\SMS\obj\SmsClient\Release\SmsBoxTree.obj
+\code\MyCode\SMS\obj\SmsClient\Release\SmsClient.obj
+\code\MyCode\SMS\obj\SmsClient\Release\SmsClientDlg.obj
+\code\MyCode\SMS\obj\SmsClient\Release\SmsClientView.obj
+\code\MyCode\SMS\obj\SmsClient\Release\SmsContactTree.obj
+\code\MyCode\SMS\obj\SmsClient\Release\SmsDetailDlg.obj
+\code\MyCode\SMS\obj\SmsClient\Release\SmsIconTray.obj
+\code\MyCode\SMS\obj\SmsClient\Release\SmsMessage.obj
+\code\MyCode\SMS\obj\SmsClient\Release\SmsMessageLib.obj
+\code\MyCode\SMS\obj\SmsClient\Release\SmsSearch.obj
+\code\MyCode\SMS\obj\SmsClient\Release\SmsSendMessage.obj
+\code\MyCode\SMS\obj\SmsClient\Release\stdafx.obj
+\code\MyCode\SMS\obj\SmsClient\Release\userManager.obj
+\code\MyCode\SMS\obj\SmsClient\Release\SmsClient.res
+\code\MyCode\SMS\lib\release\ClientSocketLib.lib
+]
+Creating command line "link.exe @C:\Users\richard\AppData\Local\Temp\RSP21F5.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+stdafx.cpp
+Compiling...
+ContactManager.cpp
+F:\code\MyCode\SMS\src\SmsClient\ContactManager.cpp(1877) : warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+DBOperate.cpp
+MainFrame.cpp
+messageManager.cpp
+ServiceManager.cpp
+SmsBoxTree.cpp
+SmsClient.cpp
+SmsClientDlg.cpp
+SmsClientView.cpp
+SmsContactTree.cpp
+SmsDetailDlg.cpp
+SmsIconTray.cpp
+SmsMessage.cpp
+SmsMessageLib.cpp
+SmsSearch.cpp
+SmsSendMessage.cpp
+userManager.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\richard\AppData\Local\Temp\RSP3D53.tmp" with contents
+[
+/nologo /o"../../obj/SmsClient/Release/SmsClient.bsc" 
+\code\MyCode\SMS\obj\SmsClient\Release\stdafx.sbr
+\code\MyCode\SMS\obj\SmsClient\Release\ContactManager.sbr
+\code\MyCode\SMS\obj\SmsClient\Release\DBOperate.sbr
+\code\MyCode\SMS\obj\SmsClient\Release\MainFrame.sbr
+\code\MyCode\SMS\obj\SmsClient\Release\messageManager.sbr
+\code\MyCode\SMS\obj\SmsClient\Release\ServiceManager.sbr
+\code\MyCode\SMS\obj\SmsClient\Release\SmsBoxTree.sbr
+\code\MyCode\SMS\obj\SmsClient\Release\SmsClient.sbr
+\code\MyCode\SMS\obj\SmsClient\Release\SmsClientDlg.sbr
+\code\MyCode\SMS\obj\SmsClient\Release\SmsClientView.sbr
+\code\MyCode\SMS\obj\SmsClient\Release\SmsContactTree.sbr
+\code\MyCode\SMS\obj\SmsClient\Release\SmsDetailDlg.sbr
+\code\MyCode\SMS\obj\SmsClient\Release\SmsIconTray.sbr
+\code\MyCode\SMS\obj\SmsClient\Release\SmsMessage.sbr
+\code\MyCode\SMS\obj\SmsClient\Release\SmsMessageLib.sbr
+\code\MyCode\SMS\obj\SmsClient\Release\SmsSearch.sbr
+\code\MyCode\SMS\obj\SmsClient\Release\SmsSendMessage.sbr
+\code\MyCode\SMS\obj\SmsClient\Release\userManager.sbr]
+Creating command line "bscmake.exe @C:\Users\richard\AppData\Local\Temp\RSP3D53.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+SmsExpress.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

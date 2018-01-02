@@ -1,0 +1,205 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TsUtil - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\richard\AppData\Local\Temp\RSPE5D8.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "../../include/wtl" /I "../../include/HYTeris" /D "WIN32" /D "_DEBUG" /D "_LIB" /D "UNICODE" /D "_UNICODE" /Fp"../../obj/TsUtil/Debug/TsUtil.pch" /YX /Fo"../../obj/TsUtil/Debug/" /Fd"../../obj/TsUtil/Debug/" /FD /GZ /c 
+"F:\code\MyCode\Teris\SRC\TsUtil\TsCommonFunction.cpp"
+"F:\code\MyCode\Teris\SRC\TsUtil\TsDrawBase.cpp"
+"F:\code\MyCode\Teris\SRC\TsUtil\TsUtilBase.cpp"
+]
+Creating command line "cl.exe @C:\Users\richard\AppData\Local\Temp\RSPE5D8.tmp" 
+Creating command line "link.exe -lib /nologo /out:"../../lib/Debug/TsUtil.lib"  \code\MyCode\Teris\obj\TsUtil\Debug\TsCommonFunction.obj \code\MyCode\Teris\obj\TsUtil\Debug\TsDrawBase.obj \code\MyCode\Teris\obj\TsUtil\Debug\TsUtilBase.obj "
+<h3>Output Window</h3>
+Compiling...
+TsCommonFunction.cpp
+TsDrawBase.cpp
+TsUtilBase.cpp
+Creating library...
+<h3>
+--------------------Configuration: TsUIFrame - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\richard\AppData\Local\Temp\RSPEA1D.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "../../include/wtl" /I "../../include/HYTeris" /D "WIN32" /D "_DEBUG" /D "UNICODE" /D "_UNICODE" /D "_LIB" /FR"../../obj/TsUIFrame/Debug/" /Fp"../../obj/TsUIFrame/Debug/TsUIFrame.pch" /YX /Fo"../../obj/TsUIFrame/Debug/" /Fd"../../obj/TsUIFrame/Debug/" /FD /GZ /c 
+"F:\code\MyCode\Teris\src\TsUIFrame\TsButton.cpp"
+"F:\code\MyCode\Teris\src\TsUIFrame\TsDataKernel.cpp"
+"F:\code\MyCode\Teris\src\TsUIFrame\TsDialogBase.cpp"
+"F:\code\MyCode\Teris\src\TsUIFrame\TsDisplayContainer.cpp"
+"F:\code\MyCode\Teris\src\TsUIFrame\TsGameContext.cpp"
+"F:\code\MyCode\Teris\src\TsUIFrame\TsGameMainWnd.cpp"
+"F:\code\MyCode\Teris\src\TsUIFrame\TsMainButtonPane.cpp"
+"F:\code\MyCode\Teris\src\TsUIFrame\TsMainControlPane.cpp"
+"F:\code\MyCode\Teris\src\TsUIFrame\TsMainDisplayPane.cpp"
+"F:\code\MyCode\Teris\src\TsUIFrame\TsMainStatusPane.cpp"
+"F:\code\MyCode\Teris\src\TsUIFrame\TsResMgr.cpp"
+"F:\code\MyCode\Teris\src\TsUIFrame\TsSetupDlg.cpp"
+"F:\code\MyCode\Teris\src\TsUIFrame\TsUIDataMgr.cpp"
+"F:\code\MyCode\Teris\src\TsUIFrame\TsUIInstanceApi.cpp"
+"F:\code\MyCode\Teris\src\TsUIFrame\TsUIModuleBase.cpp"
+"F:\code\MyCode\Teris\src\TsUIFrame\TsWebContainer.cpp"
+"F:\code\MyCode\Teris\src\TsUIFrame\TsWinFrame.cpp"
+]
+Creating command line "cl.exe @C:\Users\richard\AppData\Local\Temp\RSPEA1D.tmp" 
+Creating temporary file "C:\Users\richard\AppData\Local\Temp\RSPEA1E.tmp" with contents
+[
+/nologo /out:"../../lib/Debug/TsUIFrame.lib" 
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsButton.obj
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsDataKernel.obj
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsDialogBase.obj
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsDisplayContainer.obj
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsGameContext.obj
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsGameMainWnd.obj
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsMainButtonPane.obj
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsMainControlPane.obj
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsMainDisplayPane.obj
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsMainStatusPane.obj
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsResMgr.obj
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsSetupDlg.obj
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsUIDataMgr.obj
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsUIInstanceApi.obj
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsUIModuleBase.obj
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsWebContainer.obj
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsWinFrame.obj
+]
+Creating command line "link.exe -lib @C:\Users\richard\AppData\Local\Temp\RSPEA1E.tmp"
+<h3>Output Window</h3>
+Compiling...
+TsButton.cpp
+TsDataKernel.cpp
+TsDialogBase.cpp
+TsDisplayContainer.cpp
+TsGameContext.cpp
+TsGameMainWnd.cpp
+TsMainButtonPane.cpp
+TsMainControlPane.cpp
+TsMainDisplayPane.cpp
+TsMainStatusPane.cpp
+TsResMgr.cpp
+TsSetupDlg.cpp
+TsUIDataMgr.cpp
+TsUIInstanceApi.cpp
+TsUIModuleBase.cpp
+TsWebContainer.cpp
+TsWinFrame.cpp
+Creating library...
+Creating temporary file "C:\Users\richard\AppData\Local\Temp\RSPD38.tmp" with contents
+[
+/nologo /o"../../obj/TsUIFrame/Debug/TsUIFrame.bsc" 
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsButton.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsDataKernel.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsDialogBase.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsDisplayContainer.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsGameContext.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsGameMainWnd.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsMainButtonPane.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsMainControlPane.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsMainDisplayPane.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsMainStatusPane.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsResMgr.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsSetupDlg.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsUIDataMgr.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsUIInstanceApi.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsUIModuleBase.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsWebContainer.sbr
+\code\MyCode\Teris\obj\TsUIFrame\Debug\TsWinFrame.sbr]
+Creating command line "bscmake.exe @C:\Users\richard\AppData\Local\Temp\RSPD38.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+<h3>
+--------------------Configuration: HYTeris - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"../../obj/HYTeris/Debug/HYTeris.res" /d "_DEBUG" "F:\code\MyCode\Teris\src\HYTeris\HYTeris.rc"" 
+Creating temporary file "C:\Users\richard\AppData\Local\Temp\RSP1296.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "../../include/wtl" /I "../../include/HYTeris" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "UNICODE" /D "_UNICODE" /D "STRICT" /FR"../../obj/HYTeris/Debug/" /Fo"../../obj/HYTeris/Debug/" /Fd"../../obj/HYTeris/Debug/" /FD /GZ /c 
+"F:\code\MyCode\Teris\src\HYTeris\HYTeris.cpp"
+"F:\code\MyCode\Teris\src\HYTeris\TsComputerAIPlayer.cpp"
+"F:\code\MyCode\Teris\src\HYTeris\TsControllerMgr.cpp"
+"F:\code\MyCode\Teris\src\HYTeris\TsGameController.cpp"
+"F:\code\MyCode\Teris\src\HYTeris\TsGameEngine.cpp"
+"F:\code\MyCode\Teris\src\HYTeris\TsMainGame.cpp"
+"F:\code\MyCode\Teris\src\HYTeris\TsMainUIMgr.cpp"
+"F:\code\MyCode\Teris\src\HYTeris\TsPlayerController.cpp"
+"F:\code\MyCode\Teris\src\HYTeris\TsScoreListener.cpp"
+"F:\code\MyCode\Teris\src\HYTeris\TsScoreMgr.cpp"
+"F:\code\MyCode\Teris\src\HYTeris\TsSoundListener.cpp"
+]
+Creating command line "cl.exe @C:\Users\richard\AppData\Local\Temp\RSP1296.tmp" 
+Creating temporary file "C:\Users\richard\AppData\Local\Temp\RSP1297.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "../../include/wtl" /I "../../include/HYTeris" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "UNICODE" /D "_UNICODE" /D "STRICT" /FR"../../obj/HYTeris/Debug/" /Fp"../../obj/HYTeris/Debug/HYTeris.pch" /Yc"stdafx.h" /Fo"../../obj/HYTeris/Debug/" /Fd"../../obj/HYTeris/Debug/" /FD /GZ /c 
+"F:\code\MyCode\Teris\src\HYTeris\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\Users\richard\AppData\Local\Temp\RSP1297.tmp" 
+Creating temporary file "C:\Users\richard\AppData\Local\Temp\RSP1298.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib tsutil.lib TsUIFrame.lib /nologo /subsystem:windows /incremental:yes /pdb:"../../obj/HYTeris/Debug/HYTeris.pdb" /debug /machine:I386 /out:"../../bin/Debug/HYTeris.exe" /pdbtype:sept /libpath:"../../lib/debug" 
+\code\MyCode\Teris\obj\HYTeris\Debug\HYTeris.obj
+\code\MyCode\Teris\obj\HYTeris\Debug\stdafx.obj
+\code\MyCode\Teris\obj\HYTeris\Debug\TsComputerAIPlayer.obj
+\code\MyCode\Teris\obj\HYTeris\Debug\TsControllerMgr.obj
+\code\MyCode\Teris\obj\HYTeris\Debug\TsGameController.obj
+\code\MyCode\Teris\obj\HYTeris\Debug\TsGameEngine.obj
+\code\MyCode\Teris\obj\HYTeris\Debug\TsMainGame.obj
+\code\MyCode\Teris\obj\HYTeris\Debug\TsMainUIMgr.obj
+\code\MyCode\Teris\obj\HYTeris\Debug\TsPlayerController.obj
+\code\MyCode\Teris\obj\HYTeris\Debug\TsScoreListener.obj
+\code\MyCode\Teris\obj\HYTeris\Debug\TsScoreMgr.obj
+\code\MyCode\Teris\obj\HYTeris\Debug\TsSoundListener.obj
+\code\MyCode\Teris\obj\HYTeris\Debug\HYTeris.res
+\code\MyCode\Teris\lib\Debug\TsUtil.lib
+\code\MyCode\Teris\lib\Debug\TsUIFrame.lib
+]
+Creating command line "link.exe @C:\Users\richard\AppData\Local\Temp\RSP1298.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+stdafx.cpp
+Compiling...
+HYTeris.cpp
+TsComputerAIPlayer.cpp
+TsControllerMgr.cpp
+TsGameController.cpp
+TsGameEngine.cpp
+TsMainGame.cpp
+TsMainUIMgr.cpp
+TsPlayerController.cpp
+TsScoreListener.cpp
+TsScoreMgr.cpp
+TsSoundListener.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\richard\AppData\Local\Temp\RSP2E53.tmp" with contents
+[
+/nologo /o"../../obj/HYTeris/Debug/HYTeris.bsc" 
+\code\MyCode\Teris\obj\HYTeris\Debug\stdafx.sbr
+\code\MyCode\Teris\obj\HYTeris\Debug\HYTeris.sbr
+\code\MyCode\Teris\obj\HYTeris\Debug\TsComputerAIPlayer.sbr
+\code\MyCode\Teris\obj\HYTeris\Debug\TsControllerMgr.sbr
+\code\MyCode\Teris\obj\HYTeris\Debug\TsGameController.sbr
+\code\MyCode\Teris\obj\HYTeris\Debug\TsGameEngine.sbr
+\code\MyCode\Teris\obj\HYTeris\Debug\TsMainGame.sbr
+\code\MyCode\Teris\obj\HYTeris\Debug\TsMainUIMgr.sbr
+\code\MyCode\Teris\obj\HYTeris\Debug\TsPlayerController.sbr
+\code\MyCode\Teris\obj\HYTeris\Debug\TsScoreListener.sbr
+\code\MyCode\Teris\obj\HYTeris\Debug\TsScoreMgr.sbr
+\code\MyCode\Teris\obj\HYTeris\Debug\TsSoundListener.sbr]
+Creating command line "bscmake.exe @C:\Users\richard\AppData\Local\Temp\RSP2E53.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+HYTeris.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

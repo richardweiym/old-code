@@ -1,0 +1,349 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "../../include/ScreenCapture/SCRes.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "../../include/ScreenCapture/SCRes.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_CANVAS_SHADOW_1     BITMAP  DISCARDABLE     "Res\\canvas_s.bmp"
+IDB_WATER_MARK_1        BITMAP  DISCARDABLE     "Res\\water_mark_1.bmp"
+IDB_WATER_MARK_2        BITMAP  DISCARDABLE     "Res\\water_mark_2.bmp"
+IDB_TOOL_SEP_BK         BITMAP  DISCARDABLE     "Res\\tool_sep.bmp"
+IDB_TOOL_BTN_BK         BITMAP  DISCARDABLE     "Res\\tool_btn_bk.bmp"
+IDB_TOOL_BTN_SELECT     BITMAP  DISCARDABLE     "Res\\tool_btn_img.bmp"
+IDB_FLOAT_MENU_1        BITMAP  DISCARDABLE     "Res\\float_menu_img.bmp"
+IDB_FLOAT_DRAG_BK_1     BITMAP  DISCARDABLE     "Res\\float_drag_Bk.bmp"
+IDB_FLOAT_DRAG_1        BITMAP  DISCARDABLE     "Res\\float_drag_img.bmp"
+IDB_FLOAT_MENU_BK_1     BITMAP  DISCARDABLE     "Res\\float_menu_Bk.bmp"
+IDB_TOOL_BTN_RECT_1     BITMAP  DISCARDABLE     "Res\\tool_rect_btn_img.bmp"
+IDB_TOOL_BTN_ELLIPSE_1  BITMAP  DISCARDABLE     "Res\\tool_eclipse_btn_img.bmp"
+IDB_FLOAT_MENU_2        BITMAP  DISCARDABLE     "Res\\float_menu_img_2.bmp"
+IDB_BTN_PEN_SMALL1      BITMAP  DISCARDABLE     "Res\\btn_pen_Small.bmp"
+IDB_BTN_PEN_BIG1        BITMAP  DISCARDABLE     "Res\\btn_pen_Big.bmp"
+IDB_BTN_PEN_BK1         BITMAP  DISCARDABLE     "Res\\btn_pen_bk.bmp"
+IDB_BTN_PEN_MIDDLE1     BITMAP  DISCARDABLE     "Res\\btn_pen_Middle.bmp"
+IDB_TOOL_BTN_LINE_1     BITMAP  DISCARDABLE     "Res\\tool_line_btn_img.bmp"
+IDB_TOOL_BTN_PEN_1      BITMAP  DISCARDABLE     "Res\\tool_pen_btn_img.bmp"
+IDB_TOOL_BTN_TEXT_1     BITMAP  DISCARDABLE     "Res\\tool_text_btn_img.bmp"
+IDB_BTN_FONT_BOLD_1     BITMAP  DISCARDABLE     "Res\\btn_font_bold.bmp"
+IDB_TOOL_BTN_ERASER_1   BITMAP  DISCARDABLE     "Res\\tool_eraser_btn_img.bmp"
+IDB_TOOL_BTN_ARROW_1    BITMAP  DISCARDABLE     "Res\\tool_arrow_btn_img.bmp"
+IDB_START_BTN_BK_1      BITMAP  DISCARDABLE     "Res\\start_btn_bk.bmp"
+IDB_START_BTN_1         BITMAP  DISCARDABLE     "Res\\start_btn.bmp"
+IDB_CLOSE_BTN_BK_1      BITMAP  DISCARDABLE     "Res\\close_btn_bk.bmp"
+IDB_CLOSE_BTN_1         BITMAP  DISCARDABLE     "Res\\close_btn.bmp"
+IDB_FLOAT_DRAG_2        BITMAP  DISCARDABLE     "Res\\float_drag_img_2.bmp"
+IDB_FLOAT_DRAG_BK_2     BITMAP  DISCARDABLE     "Res\\float_drag_Bk_2.bmp"
+IDB_FLOAT_TOOL_BK_1     BITMAP  DISCARDABLE     "Res\\float_tool_Bk.bmp"
+IDB_FLOAT_MENU_BK_2     BITMAP  DISCARDABLE     "Res\\float_menu_Bk_2.bmp"
+IDB_FLOAT_TOOL_BK_2     BITMAP  DISCARDABLE     "Res\\float_tool_Bk_2.bmp"
+IDB_TOOL_BTN_BK_2       BITMAP  DISCARDABLE     "Res\\tool_btn_bk_2.bmp"
+IDB_TOOL_BTN_SELECT_2   BITMAP  DISCARDABLE     "Res\\tool_btn_img_2.bmp"
+IDB_TOOL_SEP_BK_2       BITMAP  DISCARDABLE     "Res\\tool_sep_2.bmp"
+IDB_TOOL_BTN_RECT_2     BITMAP  DISCARDABLE     "Res\\tool_rect_btn_img_2.bmp"
+IDB_TOOL_BTN_ELLIPSE_2  BITMAP  DISCARDABLE     "Res\\tool_eclipse_btn_img_2.bmp"
+IDB_TOOL_BTN_LINE_2     BITMAP  DISCARDABLE     "Res\\tool_line_btn_img_2.bmp"
+IDB_TOOL_BTN_ARROW_2    BITMAP  DISCARDABLE     "Res\\tool_arrow_btn_img_2.bmp"
+IDB_TOOL_BTN_PEN_2      BITMAP  DISCARDABLE     "Res\\tool_pen_btn_img_2.bmp"
+IDB_TOOL_BTN_TEXT_2     BITMAP  DISCARDABLE     "Res\\tool_text_btn_img_2.bmp"
+IDB_TOOL_BTN_ERASER_2   BITMAP  DISCARDABLE     "Res\\tool_eraser_btn_img_2.bmp"
+IDB_SUB_FLOAT_TOOL_BK_2 BITMAP  DISCARDABLE     "Res\\sub_float_tool_bk_2.bmp"
+IDB_SUB_FLOAT_TOOL_BK_1 BITMAP  DISCARDABLE     "Res\\sub_float_tool_bk_1.bmp"
+IDB_BTN_PEN_BK_2        BITMAP  DISCARDABLE     "Res\\btn_pen_bk_2.bmp"
+IDB_BTN_PEN_SMALL_2     BITMAP  DISCARDABLE     "Res\\btn_pen_Small_2.bmp"
+IDB_BTN_PEN_MIDDLE_2    BITMAP  DISCARDABLE     "Res\\btn_pen_Middle_2.bmp"
+IDB_BTN_PEN_BIG_2       BITMAP  DISCARDABLE     "Res\\btn_pen_Big_2.bmp"
+IDB_BTN_FONT_BOLD_2     BITMAP  DISCARDABLE     "Res\\btn_font_bold_2.bmp"
+IDB_MENU_CHECK_BOX_1    BITMAP  DISCARDABLE     "Res\\menu_check_box.bmp"
+IDB_MENU_CHECK_BOX_2    BITMAP  DISCARDABLE     "Res\\menu_check_box_2.bmp"
+IDB_TOOL_BTN_WIN_SELECT1 BITMAP  DISCARDABLE     "Res\\tool_win_select_btn_img_1.bmp"
+IDB_TOOL_BTN_WIN_SELECT2 BITMAP  DISCARDABLE     "Res\\tool_win_select_btn_img_2.bmp"
+IDB_CANVAS_SHADOW_2     BITMAP  DISCARDABLE     "Res\\canvas_s_2.bmp"
+IDB_INFO_BUBBLE_BK_1    BITMAP  DISCARDABLE     "Res\\info_bubble_bk_1.bmp"
+IDB_INFO_BUBBLE_BK_2    BITMAP  DISCARDABLE     "Res\\info_bubble_bk_2.bmp"
+IDB_TITLE_BK_1          BITMAP  DISCARDABLE     "Res\\title_bk_1.bmp"
+IDB_TITLE_BK_2          BITMAP  DISCARDABLE     "Res\\title_bk_2.bmp"
+IDB_ABOUT_WAVE_BK       BITMAP  DISCARDABLE     "Res\\about_wave_bk.BMP"
+IDB_DLG_BTN_IMG         BITMAP  DISCARDABLE     "Res\\dialog_btn_img_1.bmp"
+IDB_DLG_BTN_BK          BITMAP  DISCARDABLE     "Res\\dialog_btn_BK_1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_DEFAULT_CURSOR      CURSOR  DISCARDABLE     "res\\default_.cur"
+IDC_PEN_CURSOR          CURSOR  DISCARDABLE     "res\\pen_curs.cur"
+IDC_ERASER_CURSOR       CURSOR  DISCARDABLE     "res\\eraser_c.cur"
+IDC_SELECT_CURSOR       CURSOR  DISCARDABLE     "Res\\select_c.cur"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,0,1
+ PRODUCTVERSION 2,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "SCRes\0"
+            VALUE "FileVersion", "2, 0, 0, 1\0"
+            VALUE "InternalName", "SCSCHRes\0"
+            VALUE "LegalCopyright", "Copyright  2009\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "SCSCHRes.dll\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "HengYu SCSCHRes\0"
+            VALUE "ProductVersion", "2, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUT DIALOG DISCARDABLE  0, 0, 281, 174
+STYLE WS_POPUP
+FONT 9, "@宋体"
+BEGIN
+END
+
+IDD_ABOUT_INFO DIALOG DISCARDABLE  0, 0, 234, 79
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "版本: 小鱼儿截屏器 V2.0.0.1",IDC_STATIC,3,3,136,12
+    LTEXT           "联系: 55841310@qq.com",IDC_STATIC,3,33,136,12
+    LTEXT           "致谢: 感谢Elliot提供的试用建议",IDC_STATIC,3,64,136,12
+    LTEXT           "开发者: Richard Wei",IDC_STATIC,3,18,136,12
+    PUSHBUTTON      "确定",IDOK,166,52,51,17
+    LTEXT           "网址:",IDC_STATIC,3,47,20,11
+    LTEXT           "http://aisnote.com/download/",IDC_SITE,25,47,115,13
+END
+
+IDD_SETTING DIALOGEX 0, 0, 232, 183
+STYLE WS_POPUP
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "显示放大提示",IDC_CHECK_SHOW_ZOOM,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,36,127,12
+    CONTROL         "显示截图鼠标",IDC_CHECK_SHOW_CURSOR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,53,127,12
+    CONTROL         "注释透明",IDC_CHECK_TRANSPARENT_MARK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,70,127,12
+    CONTROL         "支持双击拷贝后关闭",IDC_CHECK_DBCLICK_CLOSE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,87,127,12
+    DEFPUSHBUTTON   "确定",IDOK,179,159,44,14
+    GROUPBOX        "选项",IDC_STATIC,5,22,215,81
+    GROUPBOX        "文件路径",IDC_STATIC,6,111,216,41
+    LTEXT           "外部编辑器:",IDC_STATIC,15,128,46,12
+    EDITTEXT        IDC_EDIT_IMAGE_EDITOR,68,128,149,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+END
+
+IDD_SAVE_IMAGE DIALOGEX 0, 0, 212, 104
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    LTEXT           "",1119,1,1,207,72
+    CONTROL         "图片保存后退出当前截图",IDC_CHECK_CLOSE_SCREEN_CAPTURE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,77,189,12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 279
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_ABOUT_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 230
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 76
+    END
+
+    IDD_SETTING, DIALOG
+    BEGIN
+        RIGHTMARGIN, 230
+        BOTTOMMARGIN, 181
+    END
+
+    IDD_SAVE_IMAGE, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 103
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SKIN_NAME_1         "蔚蓝天空"
+    IDS_SKIN_NAME_2         "冰紫水晶"
+    IDS_TOOL_SELECT_TIP     "选择截图区域  (Ctrl+C)"
+    IDS_TOOL_RECT_TIP       "矩形工具  (Ctrl+R)"
+    IDS_TOOL_ELLIPSE_TIP    "椭圆工具  (Ctrl+E)"
+    IDS_TOOL_EXTEND_MENU_TIP "截图控制菜单"
+    IDS_TOOL_LINE_TIP       "直线工具  (Ctrl+L)"
+    IDS_TOOL_PEN_TIP        "画笔工具  (Ctrl+P)"
+    IDS_TOOL_TEXT_TIP       "文本工具  (Ctrl+T)"
+    IDS_DEFAULT_TEXT_FONT_NAME "宋体"
+    IDS_TOOL_ERASER_TIP     "橡皮工具  (Ctrl+N)"
+    IDS_TOOL_ARROW_TIP      "箭头工具  (Ctrl+O)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MENU_TOOL           "工具"
+    IDS_MENU_SELECT         "选择截图区域(&C)\tCtrl+C"
+    IDS_MENU_RECT           "矩形(&R)\tCtrl+R"
+    IDS_MENU_ELLIPSE        "椭圆(&E)\tCtrl+E"
+    IDS_MENU_LINE           "直线(&L)\tCtrl+L"
+    IDS_MENU_ARROW          "箭头(&O)\tCtrl+O"
+    IDS_MENU_PEN            "画笔(&P)\tCtrl+P"
+    IDS_MENU_TEXT           "文本(&T)\tCtrl+T"
+    IDS_MENU_ERASER         "橡皮(&A)\tCtrl+N"
+    IDS_MENU_UNDO           "撤销(&U)\tCtrl+Z"
+    IDS_MENU_REDO           "重做(&R)\tCtrl+Y"
+    IDS_MENU_SKIN           "换肤"
+    IDS_MENU_HELP_TIP       "显示提示信息"
+    IDS_MENU_SAVE           "保存(&S)...\tCtrl+S"
+    IDS_COPY_EXIT           "拷贝到剪贴板后关闭\tCtrl+Q"
+    IDS_START_CAPTURE       "开始 (F8)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CLOSE_BTN_TIP       "关闭"
+    IDS_SAVE_DLG_TITLE      "保存截图"
+    IDS_SAVE_FILE_DEF_NAME  "ScreenCapture"
+    IDS_MENU_EXIT           "关闭\tEsc"
+    IDS_HELP_TIP_FORMAT     "\n\n 当前大小: ( %u * %u )\n\n 当前 RGB: ( %u , %u , %u )"
+    IDS_MENU_DOUBLE_CLICK_EXIT "支持双击鼠标后拷贝退出"
+    IDS_TOOL_WIN_SELECT_TIP "根据窗口选择截图区域  (Ctrl+W)"
+    IDS_MENU_WIN_SELECT     "根据窗口选择截图区域(&W)\tCtrl+W"
+    IDS_MENU_SHOW_CURSOR    "截图中包含鼠标"
+    IDS_LAN_NAME_1          "英语"
+    IDS_LAN_NAME_2          "简体中文"
+    IDS_MENU_LAN            "语言"
+    IDS_IMAGE_COPY_TIP      "屏幕截屏已经拷贝到剪贴板。"
+    IDS_IMAGE_COPY_TIP2     "整个屏幕已经拷贝到剪贴板。"
+    IDS_TRANSPARENT_ANNOTATION "标注透明"
+    IDS_ABOUT               "关于..."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUT_TITLE         "关于小鱼儿截屏器"
+    IDS_SETTING             "设置..."
+    IDS_SETTING_TITLE       "截图设置"
+    IDS_MENU_SAVE_EDIT      "保存后编辑...\tCtrl+M"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
